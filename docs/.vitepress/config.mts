@@ -18,6 +18,23 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
+      },
+      {
+        text: 'Asadf',
+        items: [
+          { 
+            text: 'Asdf asdf', 
+            link: '/asdf',
+            items:
+            [
+              {
+                text: 'asdfasdf',
+                link: '/asdf/asdfasdf'
+              } 
+            ]
+            
+          },
+        ]
       }
     ],
 
