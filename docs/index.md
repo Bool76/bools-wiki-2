@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Bools Wiki 2"
+  name: "Bool's Wiki 2.0"
   text: "A VitePress Site"
   tagline: My great project tagline
   actions:
