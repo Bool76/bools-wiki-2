@@ -13,8 +13,7 @@ Provide an alternative development environment for Ian's famous HOW TO doc in or
 
 
 ## Prerequisites
-1. Node.js v18.16.0+
-1. Package manager like pnpm, yarn, npm, etc.
+1. tbd
 
 
 
@@ -37,7 +36,7 @@ Provide an alternative development environment for Ian's famous HOW TO doc in or
 npm install
 ```
 
-4. Start env:
+[CORRECT] 4. Start env:
 
 ```
 npm run docs:dev
