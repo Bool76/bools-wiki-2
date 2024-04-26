@@ -192,6 +192,74 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: "Frontend Development",
+              link: "/technical-guides/frontend-development/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Accessibility",
+                  link: "/technical-guides/frontend-development/accessibility/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "For Attribute",
+                      link: "/technical-guides/frontend-development/accessibility/for-attribute/",
+                    },
+                  ],
+                },
+                {
+                  text: "Aspect Ratio",
+                  link: "/technical-guides/frontend-development/aspect-ratio/",
+                },
+                {
+                  text: "Container Queries",
+                  link: "/technical-guides/frontend-development/container-queries/",
+                },
+                {
+                  text: "HTML",
+                  link: "/technical-guides/frontend-development/html/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Block Elements",
+                      link: "/technical-guides/frontend-development/html/block-elements/",
+                    },
+                    {
+                      text: "Focusing Elements",
+                      link: "/technical-guides/frontend-development/html/focusing-elements/",
+                    },
+                    {
+                      text: "Video Element",
+                      link: "/technical-guides/frontend-development/html/video-element/",
+                    },
+                  ],
+                },
+                {
+                  text: "Node",
+                  link: "/technical-guides/frontend-development/node/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "nvm",
+                      link: "/technical-guides/frontend-development/node/nvm/"
+                    }
+                  ]
+                },
+                {
+                  text: "Tailwind",
+                  link: "/technical-guides/frontend-development/tailwind/",
+                },
+                {
+                  text: "Testing",
+                  link: "/technical-guides/frontend-development/testing/",
+                },
+                {
+                  text: "Typescript",
+                  link: "/technical-guides/frontend-development/typescript/",
+                },
+              ],
+            },
           ]
         }
       ],
