@@ -114,7 +114,84 @@ export default defineConfig({
                   ]
                 }
               ],
-            }
+            },
+            {
+              text: 'Command Line',
+              link: '/technical-guides/command-line/'
+            },
+            {
+              text: "CSS",
+              link: "/technical-guides/css/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Box Model",
+                  link: "/technical-guides/css/box-model/",
+                },
+                {
+                  text: "Box-Sizing",
+                  link: "/technical-guides/css/box-sizing/",
+                },
+                {
+                  text: "Close Icon",
+                  link: "/technical-guides/css/close-icon/",
+                },
+                {
+                  text: "Container Queries",
+                  link: "/technical-guides/css/container-queries/",
+                },
+                {
+                  text: "Flexbox",
+                  link: "/technical-guides/css/flexbox/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Flex Direction",
+                      link: "/technical-guides/css/flexbox/flex-direction/",
+                    },
+                    {
+                      text: "Flex Grow",
+                      link: "/technical-guides/css/flexbox/flex-grow/",
+                    },
+                    {
+                      text: "Margin Left + Right",
+                      link: "/technical-guides/css/flexbox/margin-left-right/",
+                    },
+                    {
+                      text: "Single item per Row",
+                      link: "/technical-guides/css/flexbox/flex-single-item-row/",
+                    },
+                    {
+                      text: "Two items per Row",
+                      link: "/technical-guides/css/flexbox/flex-two-items-row/",
+                    },
+                  ],
+                },
+                {
+                  text: "Grid",
+                  link: "/technical-guides/css/grid/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "grid-template-columns",
+                      link: "/technical-guides/css/grid/grid-template-columns/"
+                    }
+                  ]
+                },
+                {
+                  text: "Limit Text Rows",
+                  link: "/technical-guides/css/limit-text-rows/",
+                },
+                {
+                  text: "min-width + max-width",
+                  link: "/technical-guides/css/min-width-max-width/",
+                },
+                {
+                  text: "Truncate with Ellipsis",
+                  link: "/technical-guides/css/truncate-with-ellipsis/",
+                },
+              ],
+            },
           ]
         }
       ],
