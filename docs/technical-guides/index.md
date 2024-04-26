@@ -1,4 +1,3 @@
-guide index page
+# Bools Technical Guides
 
 
-asdf

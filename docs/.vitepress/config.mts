@@ -86,6 +86,35 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: "Chrome",
+              collapsed: true,
+              link: "/technical-guides/chrome/",
+              items: [
+                {
+                  text: "Dev Tools",
+                  collapsed: true,
+                  link: "/technical-guides/chrome/dev-tools/",
+                  items: [
+                    {
+                      text: "Move Style Window",
+                      link: "/technical-guides/chrome/dev-tools/move-style-window/",
+                    }
+                  ]
+                },
+                {
+                  text: "Lighthouse",
+                  collapsed: true,
+                  link: "/technical-guides/chrome/lighthouse/",
+                  items: [
+                    {
+                      text: 'Clear Cache',
+                      link: "/technical-guides/chrome/lighthouse/clear-cache/",
+                    }
+                  ]
+                }
+              ],
+            }
           ]
         }
       ],
