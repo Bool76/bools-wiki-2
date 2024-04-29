@@ -914,7 +914,77 @@ export default defineConfig({
                   link: "/technical-guides/vscode/shortcuts/",
                 },
               ],
-            },    
+            },
+            {
+              text: "Vue",
+              link: "/technical-guides/vue/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Basics",
+                  link: "/technical-guides/vue/vue-basics/",
+                },
+                {
+                  text: "Components",
+                  link: "/technical-guides/vue/vue-components/",
+                },
+                {
+                  text: "Container Queries",
+                  link: "/technical-guides/vue/container-queries/",
+                },
+                {
+                  text: "Custom Props",
+                  link: "/technical-guides/vue/custom-props/",
+                },
+                {
+                  text: "Custom Prop Inheritance",
+                  link: "/technical-guides/vue/custom-prop-inheritance/",
+                },
+                {
+                  text: "Directives",
+                  link: "/technical-guides/vue/directives/",
+                },
+                {
+                  text: "Nuxt",
+                  link: "/technical-guides/vue/nuxt/",
+                },
+                {
+                  text: "Ref() + Reactive()",
+                  link: "/technical-guides/vue/ref-n-reactive/",
+                },
+                {
+                  text: "slots",
+                  link: "/technical-guides/vue/slots/",
+                },
+                {
+                  text: "variables",
+                  link: "/technical-guides/vue/variables/",
+                },
+                {
+                  text: "v-bind",
+                  link: "/technical-guides/vue/v-bind/",
+                },
+                {
+                  text: "v-model",
+                  link: "/technical-guides/vue/v-model/",
+                },
+                {
+                  text: "Vue File Types",
+                  link: "/technical-guides/vue/vue-file-types/",
+                },
+              ],
+            }, 
+            {
+              text: "VuePress",
+              link: "/technical-guides/vue-press/",
+              collapsed: true,
+              items: [
+                {
+                  text: "VuePress Styling",
+                  link: "/technical-guides/vue-press/vue-press-styling/",
+                },
+              ],
+            },   
           ]
         }
       ],
