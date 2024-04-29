@@ -420,6 +420,47 @@ export default defineConfig({
               ],
             },
             {
+              text: "Project Management",
+              link: "/technical-guides/pm/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Templates",
+                  link: "/technical-guides/pm/pm-templates/",
+                  items: [
+                    {
+                      text: "Assumptions Log",
+                      link: "/technical-guides/pm/pm-templates/templates-assumptions-log/",
+                    },
+                    {
+                      text: "Decisions",
+                      link: "/technical-guides/pm/pm-templates/templates-decisions/",
+                    },
+                    {
+                      text: "Launch Communication",
+                      link: "/technical-guides/pm/pm-templates/templates-launch-communication/",
+                    },
+                    {
+                      text: "Meetings",
+                      link: "/technical-guides/pm/pm-templates/templates-meetings/",
+                    },
+                    {
+                      text: "Risk Register",
+                      link: "/technical-guides/pm/pm-templates/templates-risk-register/",
+                    },
+                    {
+                      text: "Stakeholder Register",
+                      link: "/technical-guides/pm/pm-templates/templates-stakeholder-register/",
+                    },
+                    {
+                      text: "Team Charter",
+                      link: "/technical-guides/pm/pm-templates/templates-team-charter/",
+                    },
+                  ]
+                },
+              ],
+            },
+            {
               text: "SRAM Dev", 
               link: "/technical-guides/sram-dev/",
               collapsed: true,
@@ -532,6 +573,85 @@ export default defineConfig({
         {
           text: 'Other',
           items: [
+            {
+              text: 'Career',
+              link: '/other/career/',
+              collapsed: true,
+              items: [
+                {
+                  text: "Project Management Journal",
+                  link: "/other/career/pm-journal/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Project 1",
+                      link:"/other/career/pm-journal/project-1/",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Lessons Learned",
+                          link: "/other/career/pm-journal/project-1/lessons-learned/"
+                        },
+                        {
+                          text: "2024-01-02",
+                          link: "/other/career/pm-journal/project-1/p1-2024-01-02/",
+                        },
+                        {
+                          text: "2023-11-30",
+                          link: "/other/career/pm-journal/project-1/p1-2023-11-30/",
+                        },
+                        {
+                          text: "2023-11-21",
+                          link: "/other/career/pm-journal/project-1/p1-2023-11-21/",
+                        },
+                        {
+                          text: "2023-11-09",
+                          link: "/other/career/pm-journal/project-1/p1-2023-11-09/",
+                        },
+                        {
+                          text: "2023-11-06",
+                          link: "/other/career/pm-journal/project-1/p1-2023-11-06/",
+                        },
+                        {
+                          text: "2023-10-30",
+                          link: "/other/career/pm-journal/project-1/p1-2023-10-30/",
+                        },
+                        {
+                          text: "2023-10-26",
+                          link: "/other/career/pm-journal/project-1/p1-2023-10-26/",
+                        },
+                      ],
+                    },
+                    {
+                      text: "Project 2",
+                      link:"/other/career/pm-journal/project-2/",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Lessons Learned",
+                          link:"/other/career/pm-journal/project-2/lessons-learned/",
+                        },
+                      ]
+                    }
+                  ]
+                },
+              ]
+            },
+            { 
+              text: 'Music', 
+              link: '/other/music/', 
+              collapsed: true,
+              items: [
+                {
+                  text: 'Chord Progressions',
+                  link: '/other/music/chord-progressions/'
+                },
+                {
+                  text: 'Vocal Range',
+                  link: '/other/music/vocal-range/'
+                }
+              ]
+            },
             { 
               text: 'Index', 
               link: '/other/' 
