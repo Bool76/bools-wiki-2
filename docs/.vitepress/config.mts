@@ -461,6 +461,262 @@ export default defineConfig({
               ],
             },
             {
+              text: "PMP",
+              link: "/technical-guides/pmp/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Agile",
+                  link: "/technical-guides/pmp/agile/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Agile Key Concepts",
+                      link: "/technical-guides/pmp/agile/agile-key-concepts/",
+                    },
+                    {
+                      text: "Ceremonies + Reports + Tools",
+                      link: "/technical-guides/pmp/agile/ceremonies-reports-tools/",
+                    },
+                    {
+                      text: "Agile Stages",
+                      link: "/technical-guides/pmp/agile/agile-stages/",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Agile Project Initiation",
+                          link: "/technical-guides/pmp/agile/agile-stages/agile-project-initiation/",
+                        },
+                        {
+                          text: "Agile Planning",
+                          link: "/technical-guides/pmp/agile/agile-stages/agile-planning/",
+                        },
+                      ],
+                    },
+                    {
+                      text: "Agile Types",
+                      link: "/technical-guides/pmp/agile/agile-types/",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Scrum",
+                          link: "/technical-guides/pmp/agile/agile-types/scrum/",
+                        },
+                        {
+                          text: "Kanban",
+                          link: "/technical-guides/pmp/agile/agile-types/kanban/",
+                        },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  text: "Predictive",
+                  link: "/technical-guides/pmp/predictive/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Phases",
+                      link: "/technical-guides/pmp/predictive/phases/",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Initalize",
+                          link: "/technical-guides/pmp/predictive/phases/initalize/",
+                        },
+                        {
+                          text: "Build",
+                          link: "/technical-guides/pmp/predictive/phases/planning/",
+                          collapsed: true,
+                          items: [
+                            {
+                              text: "Build a Team",
+                              link: "/technical-guides/pmp/predictive/phases/build/build-a-team/",
+                            },
+                          ],
+                        },
+                        {
+                          text: "Planning",
+                          link: "/technical-guides/pmp/predictive/phases/planning/",
+                          collapsed: true,
+                          items: [
+                            {
+                              text: "Requirements",
+                              link: "/technical-guides/pmp/predictive/phases/planning/requirements/",
+                            },
+                            {
+                              text: "Schedule",
+                              link: "/technical-guides/pmp/predictive/phases/planning/schedule/",
+                            },
+                            {
+                              text: "Cost Management",
+                              link: "/technical-guides/pmp/predictive/phases/planning/cost-management/",
+                            },
+                            {
+                              text: "Cost Estimates",
+                              link: "/technical-guides/pmp/predictive/phases/planning/cost-estimates/",
+                            },
+                            {
+                              text: "Determine Budget",
+                              link: "/technical-guides/pmp/predictive/phases/planning/determine-budget/",
+                            },
+                            {
+                              text: "Control Costs",
+                              link: "/technical-guides/pmp/predictive/phases/planning/control-costs/",
+                            },
+                            {
+                              text: "Earned Value",
+                              link: "/technical-guides/pmp/predictive/phases/planning/earned-value/",
+                            },
+                            {
+                              text: "Configuration",
+                              link: "/technical-guides/pmp/predictive/phases/planning/configuration/",
+                            },
+                            {
+                              text: "Quality",
+                              link: "/technical-guides/pmp/predictive/phases/planning/quality/",
+                            },
+                            {
+                              text: "Procurement",
+                              link: "/technical-guides/pmp/predictive/phases/planning/procurement/",
+                            },
+                            {
+                              text: "Integration",
+                              link: "/technical-guides/pmp/predictive/phases/planning/integration/",
+                            },
+                          ],
+                        },
+                        {
+                          text: "Execute",
+                          link: "/technical-guides/pmp/predictive/phases/execute/",
+                          collapsed: true,
+                          items: [
+                            {
+                              text: "Change",
+                              link: "/technical-guides/pmp/predictive/phases/execute/change/",
+                            },
+                            {
+                              text: "Communcation",
+                              link: "/technical-guides/pmp/predictive/phases/execute/communication/",
+                            },
+                            {
+                              text: "Risk",
+                              link: "/technical-guides/pmp/predictive/phases/execute/risk/",
+                            },
+                            {
+                              text: "Stakeholder Engagement",
+                              link: "/technical-guides/pmp/predictive/phases/execute/stakeholder-engagement/",
+                            },
+                          ],
+                        },
+                        {
+                          text: "Monitor",
+                          link: "/technical-guides/pmp/predictive/phases/monitor/",
+                          collapsed: true,
+                          items: [
+                            {
+                              text: "Conflicts",
+                              link: "/technical-guides/pmp/predictive/phases/monitor/conflicts/",
+                            },
+                            {
+                              text: "Lead a Team",
+                              link: "/technical-guides/pmp/predictive/phases/monitor/lead-a-team/",
+                            },
+                            {
+                              text: "Remove Blockers",
+                              link: "/technical-guides/pmp/predictive/phases/monitor/remove-blockers/",
+                            },
+                            {
+                              text: "Team Performance",
+                              link: "/technical-guides/pmp/predictive/phases/monitor/team-performance/",
+                            },
+                          ],
+                        },
+                        {
+                          text: "Grow",
+                          link: "/technical-guides/pmp/predictive/phases/grow/",
+                          collapsed: true,
+                          items: [
+                            {
+                              text: "Benefits + Value",
+                              link: "/technical-guides/pmp/predictive/phases/grow/benefits-value/",
+                            },
+                            {
+                              text: "Compliance",
+                              link: "/technical-guides/pmp/predictive/phases/grow/compliance/",
+                            },
+                            {
+                              text: "Organizational Change",
+                              link: "/technical-guides/pmp/predictive/phases/grow/org-change/",
+                            },
+                          ],
+                        },
+                        {
+                          text: "Close the Project",
+                          link: "/technical-guides/pmp/predictive/phases/close/",
+                        },
+                      ],
+                    },
+                    {
+                      text: "Plans + Documents + Tools",
+                      link: "/technical-guides/pmp/predictive/plans-documents-tools/",
+                    },
+                    {
+                      text: "Calculations",
+                      link: "/technical-guides/pmp/predictive/calculations/",
+                    },
+                  ],
+                },
+                {
+                  text: "Situational Strategies",
+                  link: "/technical-guides/pmp/situational-strategies/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Methodology Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/methodology-strategies/",
+                    },
+                    {
+                      text: "Planning Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/planning-strategies/",
+                    },
+                    {
+                      text: "Requirements Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/requirements-strategies/",
+                    },
+                    {
+                      text: "Team Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/team-strategies/",
+                    },
+                    {
+                      text: "Stakeholder Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/stakeholder-strategies/",
+                    },
+                    {
+                      text: "Risk Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/risk-strategies/",
+                    },
+                    {
+                      text: "Quality Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/quality-strategies/",
+                    },
+                    {
+                      text: "Close Project Strategies",
+                      link: "/technical-guides/pmp/situational-strategies/close-project-strategies/",
+                    },
+                  ],
+                },
+                {
+                  text: "Test Question Strategies",
+                  link: "/technical-guides/pmp/test-question-strategies/",
+                },
+                {
+                  text: "Concepts to Remember",
+                  link: "/technical-guides/pmp/concepts-to-remember/",
+                },
+              ],
+            },
+            {
               text: "SRAM Dev", 
               link: "/technical-guides/sram-dev/",
               collapsed: true,
