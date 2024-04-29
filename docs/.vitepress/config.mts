@@ -717,6 +717,21 @@ export default defineConfig({
               ],
             },
             {
+              text: "SCSS",
+              link: "/technical-guides/scss/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Media Query",
+                  link: "/technical-guides/scss/media-query/",
+                },
+                {
+                  text: "Psuedo Elements",
+                  link: "/technical-guides/scss/psuedo-elements/",
+                },
+              ],
+            },
+            {
               text: "SRAM Dev", 
               link: "/technical-guides/sram-dev/",
               collapsed: true,
@@ -891,6 +906,16 @@ export default defineConfig({
                     }
                   ]
                 },
+              ]
+            },
+            {
+              text: "Random Thoughts",
+              link: "/other/random-thoughts/",
+              items: [
+                {
+                  text: "2023-12-22",
+                  link: "/other/random-thoughts/2023-12-22/"
+                }
               ]
             },
             { 
