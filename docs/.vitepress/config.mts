@@ -833,7 +833,88 @@ export default defineConfig({
                   ],
                 },
               ],
-            },      
+            }, 
+            {
+              text: "Storybook",
+              link: "/technical-guides/storybook/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Arguments",
+                  link: "/technical-guides/storybook/arguments/",
+                },
+                {
+                  text: "Doc Blocks",
+                  link: "/technical-guides/storybook/doc-blocks/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Canvas Block",
+                      link: "/technical-guides/storybook/doc-blocks/canvas-block/",
+                    },
+                    {
+                      text: "Meta Block",
+                      link: "/technical-guides/storybook/doc-blocks/meta-block/",
+                    },
+                    {
+                      text: "Source Block",
+                      link: "/technical-guides/storybook/doc-blocks/source-block/",
+                    },
+                    {
+                      text: "Story Block",
+                      link: "/technical-guides/storybook/doc-blocks/story-block/",
+                    },
+                  ],
+                },
+                {
+                  text: "Importing JSON",
+                  link: "/technical-guides/storybook/importing-json/",
+                },
+                {
+                  text: "Story",
+                  link: "/technical-guides/storybook/storybook-story/",
+                },
+                {
+                  text: "Vue Slots",
+                  link: "/technical-guides/storybook/vue-slots/",
+                },
+              ],
+            }, 
+            {
+              text: "VS Code",
+              link: "/technical-guides/vscode/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Code Wrap",
+                  link: "/technical-guides/vscode/code-wrap/",
+                },
+                {
+                  text: "Debugging",
+                  link: "/technical-guides/vscode/debugging/",
+                },
+                {
+                  text: "Eslint + Prettier",
+                  link: "/technical-guides/vscode/eslint-prettier/",
+                },
+                {
+                  text: "Eslint",
+                  link: "/technical-guides/vscode/eslint/",
+                },
+                {
+                  text: "Merge Conflicts",
+                  link: "/technical-guides/vscode/merge-conflicts/",
+                },
+                {
+                  text: "Prettier",
+                  link: "/technical-guides/vscode/prettier/",
+                },
+                {
+                  text: "Shortcuts",
+                  link: "/technical-guides/vscode/shortcuts/",
+                },
+              ],
+            },    
           ]
         }
       ],
