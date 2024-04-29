@@ -260,6 +260,268 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: "Git",
+              link: "/technical-guides/git/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Add Git",
+                  link: "/technical-guides/git/add-git/",
+                },
+                {
+                  text: "Clone Specific Branch",
+                  link: "/technical-guides/git/clone-repo-specific-branch/",
+                },
+                {
+                  text: "Commit",
+                  link: "/technical-guides/git/commit/",
+                },
+                {
+                  text: "Commit Log",
+                  link: "/technical-guides/git/commit-log/",
+                },
+                {
+                  text: "Delete Branch",
+                  link: "/technical-guides/git/delete-branch/",
+                },
+                {
+                  text: "Discard File Changes",
+                  link: "/technical-guides/git/discard-file-changes/",
+                },
+                {
+                  text: "Exclude",
+                  link: "/technical-guides/git/exclude/",
+                },
+                {
+                  text: "Find + Replace",
+                  link: "/technical-guides/git/find-replace/",
+                },
+                {
+                  text: "Gitignore",
+                  link: "/technical-guides/git/gitignore/",
+                },
+                {
+                  text: "Merge Conflicts",
+                  link: "/technical-guides/git/merge-conflicts/",
+                },
+                {
+                  text: "Permission Denied Error",
+                  link: "/technical-guides/git/permission-denied-error/",
+                },
+                {
+                  text: "Rebase",
+                  link: "/technical-guides/git/rebase/",
+                },
+                {
+                  text: "Rebase Explained",
+                  link: "/technical-guides/git/rebase-explained/",
+                },
+                {
+                  text: "Reset",
+                  link: "/technical-guides/git/reset/",
+                },
+                {
+                  text: "SSH",
+                  link: "/technical-guides/git/ssh/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Create SSH Key",
+                      link: "/technical-guides/git/ssh/create-ssh-key/",
+                    },
+                  ],
+                },
+                {
+                  text: "Squash Commits",
+                  link: "/technical-guides/git/squash-commits/",
+                },
+                {
+                  text: "Track Branch",
+                  link: "/technical-guides/git/track-branch/",
+                },
+              ],
+            },
+            {
+              text: "Github",
+              link: "/technical-guides/github/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Add SSH Key",
+                  link: "/technical-guides/github/add-ssh-key/",
+                },
+                {
+                  text: "SSH Keys",
+                  link: "/technical-guides/github/ssh-keys/",
+                },
+              ],
+            },
+            {
+              text: "Javascript",
+              link: "/technical-guides/javascript/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Arrays",
+                  link: "/technical-guides/javascript/arrays/",
+                },
+                {
+                  text: "Basics",
+                  link: "/technical-guides/javascript/basics/",
+                },
+                {
+                  text: "Functions",
+                  link: "/technical-guides/javascript/functions/",
+                },
+                {
+                  text: "Javascript JQuery Book",
+                  link: "/technical-guides/javascript/javascript-jquery/",
+                },
+                {
+                  text: "Operators",
+                  link: "/technical-guides/javascript/operators/",
+                },
+                {
+                  text: "Variables",
+                  link: "/technical-guides/javascript/variables/",
+                },
+              ],
+            },
+            {
+              text: "Markdown",
+              link: "/technical-guides/markdown/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Code Block",
+                  link: "/technical-guides/markdown/code-block/",
+                },
+                {
+                  text: "Escape HTML tag",
+                  link: "/technical-guides/markdown/escape-html-tag/",
+                },
+                {
+                  text: "Footnotes",
+                  link: "/technical-guides/markdown/footnotes/",
+                },
+                {
+                  text: "Hyperlink",
+                  link: "/technical-guides/markdown/hyperlink/",
+                },
+                {
+                  text: "Insert Image",
+                  link: "/technical-guides/markdown/insert-image/",
+                },
+                {
+                  text: "Warning + Notes Message",
+                  link: "/technical-guides/markdown/warning-and-notes/",
+                },
+              ],
+            },
+            {
+              text: "SRAM Dev", 
+              link: "/technical-guides/sram-dev/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Azure | Deployment",
+                  link: "/technical-guides/sram-dev/azure-deployment/",
+                },
+                {
+                  text: "Epi",
+                  link: "/technical-guides/sram-dev/epi/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Find object",
+                      link: "/technical-guides/sram-dev/epi/epi-find-object/",
+                    },
+                    {
+                      text: "Locate Content Instance",
+                      link: "/technical-guides/sram-dev/epi/locate-content-instance/",
+                    },
+                    {
+                      text: "Locate Template",
+                      link: "/technical-guides/sram-dev/epi/locate-template/",
+                    },
+                  ],
+                },
+                {
+                  text: "slr2",
+                  link: "/technical-guides/sram-dev/slr2/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Model View Controller",
+                      link: "/technical-guides/sram-dev/slr2/model-view-controller/",
+                    },
+                    {
+                      text: "Start Environment",
+                      link: "/technical-guides/sram-dev/slr2/start-environment/",
+                    },
+                    {
+                      text: "Test Custom Javascript",
+                      link: "/technical-guides/sram-dev/slr2/test-custom-js/",
+                    },
+                    {
+                      text: "URL and PubID",
+                      link: "/technical-guides/sram-dev/slr2/url-and-pubId/",
+                    },
+                  ],
+                },
+                {
+                  text: "Sramconnect",
+                  link: "/technical-guides/sram-dev/sramconnect/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Compile C#",
+                      link: "/technical-guides/sram-dev/sramconnect/compile-c-sharp/",
+                    },
+                    {
+                      text: "Compile chtml",
+                      link: "/technical-guides/sram-dev/sramconnect/compile-chtml/",
+                    },
+                    {
+                      text: "Compile CSS+JS",
+                      link: "/technical-guides/sram-dev/sramconnect/compile-css/",
+                    },
+                    {
+                      text: "Debug",
+                      link: "/technical-guides/sram-dev/sramconnect/debug/",
+                    },
+                    {
+                      text: "Environment",
+                      link: "/technical-guides/sram-dev/sramconnect/start-environment/",
+                    },
+                  ], // optional, defaults to 0, defines the index of initially opened subgroup
+                },
+                {
+                  text: "Sram-ui",
+                  link: "/technical-guides/sram-dev/sram-ui/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Display Code Changes",
+                      link: "/technical-guides/sram-dev/sram-ui/display-code-changes/",
+                    },
+                    {
+                      text: "Frontend Pipeline",
+                      link: "/technical-guides/sram-dev/sram-ui/frontend-pipeline/",
+                    },
+                    {
+                      text: "Install Package",
+                      link: "/technical-guides/sram-dev/sram-ui/install-package/",
+                    },
+                    {
+                      text: "Start Environment",
+                      link: "/technical-guides/sram-dev/sram-ui/start-environment/",
+                    },
+                  ],
+                },
+              ],
+            },      
           ]
         }
       ],
