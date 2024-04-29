@@ -988,9 +988,6 @@ export default defineConfig({
           ]
         }
       ],
-
-      // This sidebar gets displayed when a user
-      // is on `config` directory.
       '/other/': [
         {
           text: 'Other',
@@ -1059,16 +1056,6 @@ export default defineConfig({
                 },
               ]
             },
-            {
-              text: "Random Thoughts",
-              link: "/other/random-thoughts/",
-              items: [
-                {
-                  text: "2023-12-22",
-                  link: "/other/random-thoughts/2023-12-22/"
-                }
-              ]
-            },
             { 
               text: 'Music', 
               link: '/other/music/', 
@@ -1084,18 +1071,17 @@ export default defineConfig({
                 }
               ]
             },
-            { 
-              text: 'Index', 
-              link: '/other/' 
+            {
+              text: "Random Thoughts",
+              link: "/other/random-thoughts/",
+              collapsed: true,
+              items: [
+                {
+                  text: "2023-12-22",
+                  link: "/other/random-thoughts/2023-12-22"
+                }
+              ]
             },
-            { 
-              text: 'Three', 
-              link: '/other/one' 
-            },
-            { 
-              text: 'Four', 
-              link: '/other/two' 
-            }
           ]
         }
       ]
