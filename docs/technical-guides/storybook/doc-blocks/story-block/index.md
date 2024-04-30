@@ -46,7 +46,7 @@ import { Story, Meta } from '@storybook/addon-docs';
 <br>
 
 **Result:**  
-![Image from images folder](~@source/images/storybook/storybook-docBlocks/docBlock-story/story-block_standalone-example.png)
+![Image from images folder](/storybook/storybook-docBlocks/docBlock-story/story-block_standalone-example.png)
 
 <br>
 

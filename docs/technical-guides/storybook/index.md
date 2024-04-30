@@ -63,7 +63,7 @@ How to get to it?
 1. Once open click on the "Docs" link at the top
 
 _Example_  
-![Image from images folder](~@source/images/storybook/storybook-basics/storybook-basics-01.png)
+![Image from images folder](/storybook/storybook-basics/storybook-basics-01.png)
 
 <br>
 

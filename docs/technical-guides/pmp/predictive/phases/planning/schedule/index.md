@@ -102,7 +102,7 @@ Overview - 3 different estimate calculations that are based on the 3 variables:
 
 #### Example: How to make Lasagna
 
-![Image from images folder](~@source/images/pmp/predictive/phases/planning/schedule/planning_schedule_project-Network-Diagram.png)
+![Image from images folder](/pmp/predictive/phases/planning/schedule/planning_schedule_project-Network-Diagram.png)
 
 **Breakdown**
 

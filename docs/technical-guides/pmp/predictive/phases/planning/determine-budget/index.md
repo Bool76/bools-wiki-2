@@ -89,9 +89,9 @@ Funding Limit Reconciliation
 
 ##### Project Budget Components - Flow Chart
 
-![Image from images folder](~@source/images/pmp/predictive/phases/planning/determine-budget/planning_budget_project-budget-components_flowChart.png)
+![Image from images folder](/pmp/predictive/phases/planning/determine-budget/planning_budget_project-budget-components_flowChart.png)
 <br>
 
 ##### Project Budget Components - Bar Chart
 
-![Image from images folder](~@source/images/pmp/predictive/phases/planning/determine-budget/planning_budget_project-budget-components_barChart.png)
+![Image from images folder](/pmp/predictive/phases/planning/determine-budget/planning_budget_project-budget-components_barChart.png)

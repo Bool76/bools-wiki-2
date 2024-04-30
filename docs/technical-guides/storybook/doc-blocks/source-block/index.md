@@ -57,4 +57,4 @@ Breakdown:
 
 Result:
 
-![Image from images folder](~@source/images/storybook/storybook-docBlocks/docBlock-source/story-block_standalone-example.png)
+![Image from images folder](/storybook/storybook-docBlocks/docBlock-source/story-block_standalone-example.png)
