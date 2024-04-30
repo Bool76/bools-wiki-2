@@ -27,62 +27,62 @@ export default defineConfig({
               items: [
                 {
                   text: "Any Method",
-                  link: "/c-sharp/any-method/",
+                  link: "/technical-guides/c-sharp/any-method/",
                 },
                 {
                   text: "Class and Objects",
-                  link: "/c-sharp/class-objects/",
+                  link: "/technical-guides/c-sharp/class-objects/",
                 },
                 {
                   text: "Constructor",
-                  link: "/c-sharp/constructor/",
+                  link: "/technical-guides/c-sharp/constructor/",
                 },
                 {
                   text: "Core MVC",
-                  link: "/c-sharp/core-mvc/",
+                  link: "/technical-guides/c-sharp/core-mvc/",
                 },
                 {
                   text: "List Class",
-                  link: "/c-sharp/list-class/",
+                  link: "/technical-guides/c-sharp/list-class/",
                 },
                 {
                   text: "Model View Controller",
                   collapsed: true,
-                  link: "/c-sharp/model-view-controller/",
+                  link: "/technical-guides/c-sharp/model-view-controller/",
                   items: [
                     {
                       text: "View",
-                      link: "/c-sharp/model-view-controller/view/",
+                      link: "/technical-guides/c-sharp/model-view-controller/view/",
                       items: [
                         {
                           text: "Import a Model",
-                          link: "/c-sharp/model-view-controller/view/view-import-model/",
+                          link: "/technical-guides/c-sharp/model-view-controller/view/view-import-model/",
                         },
                       ],
                     },
                     {
                       text: "View Model",
-                      link: "/c-sharp/model-view-controller/view-model/",
+                      link: "/technical-guides/c-sharp/model-view-controller/view-model/",
                     },
                     {
                       text: "Controller",
-                      link: "/c-sharp/model-view-controller/controller/",
+                      link: "/technical-guides/c-sharp/model-view-controller/controller/",
                       items: [
                         {
                           text: "ActionResult + IActionResult",
-                          link: "/c-sharp/model-view-controller/controller/actionResult-iactionResult/",
+                          link: "/technical-guides/c-sharp/model-view-controller/controller/actionResult-iactionResult/",
                         },
                       ],
                     },
                     {
                       text: "MVC Example",
-                      link: "/c-sharp/model-view-controller/mvc-example/",
+                      link: "/technical-guides/c-sharp/model-view-controller/mvc-example/",
                     },
                   ],
                 },
                 {
                   text: "Namespace",
-                  link: "/c-sharp/namespace/",
+                  link: "/technical-guides/c-sharp/namespace/",
                 },
               ],
             },
