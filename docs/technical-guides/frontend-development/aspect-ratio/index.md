@@ -27,7 +27,7 @@ Summary - Most typical aspect ratio for videos. International standard for TV, l
 
 *Example*  
 
-![Image from images folder](~@source/images/frontend-development/aspect-ratio/aspect-ratio_16-9_example.png)
+![Image from images folder](/frontend-development/aspect-ratio/aspect-ratio_16-9_example.png)
 
 
 #### 4:3 
@@ -36,21 +36,21 @@ Summary - The original standard for traditional television and computer monitor 
 NOTE: Zack Snyder's Justice League was in 4:3
 
 *Example*  
-![Image from images folder](~@source/images/frontend-development/aspect-ratio/aspect-ratio_4-3_example.png)
+![Image from images folder](/frontend-development/aspect-ratio/aspect-ratio_4-3_example.png)
 
 <br>
 
 #### 3:2
 Summary -  This was originally used for classic 35 mm still photography
 *Example*  
-![Image from images folder](~@source/images/frontend-development/aspect-ratio/aspect-ratio_3-2_example.png)
+![Image from images folder](/frontend-development/aspect-ratio/aspect-ratio_3-2_example.png)
 
 
 #### 1:1
 Summary - Ratio that's a perfect square
 
 *Example*  
-![Image from images folder](~@source/images/frontend-development/aspect-ratio/aspect-ratio_1-1_example.png)
+![Image from images folder](/frontend-development/aspect-ratio/aspect-ratio_1-1_example.png)
 
 
 
@@ -60,7 +60,7 @@ Summary - This ratio display has a very high definition and particular purpose. 
 
 *Example*  
 
-![Image from images folder](~@source/images/frontend-development/aspect-ratio/aspect-ratio_21-9_example.png)
+![Image from images folder](/frontend-development/aspect-ratio/aspect-ratio_21-9_example.png)
 
 <br><br>
 

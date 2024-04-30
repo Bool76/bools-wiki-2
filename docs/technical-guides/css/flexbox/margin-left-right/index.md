@@ -5,7 +5,7 @@ Summary - How to use utilize margin-right and margin-left in relation to alignin
 #### Scenario
 I was working in a mobile header where I wanted to keep the hamburger menu aligned to the left and shift the account and cart icon to the right. The parent div was set as a FLEX display type, so I couldn't use the old school CSS `float: right`. So how could I do it?
 
-![Image from images folder](~@source/images/frontend-development/flexbox/margin-left-right/margin-right-left_header-example.png)
+![Image from images folder](/frontend-development/flexbox/margin-left-right/margin-right-left_header-example.png)
 
 <br><br>
 
@@ -27,4 +27,4 @@ I was working in a mobile header where I wanted to keep the hamburger menu align
     1. The first `<li>` is the mobile menu so we are bypassing that and targeting the 2nd child
     2. Use `margin-left: auto` on the 2nd `<li>`. Why? A good way to think of it is `margin-left` is applying a margin to the LEFT of the item  
 5. See the following example of how there's now a margin to the left of the Account icon:  
-![Image from images folder](~@source/images/frontend-development/flexbox/margin-left-right/margin-right-left_margin-left.png)
+![Image from images folder](/frontend-development/flexbox/margin-left-right/margin-right-left_margin-left.png)

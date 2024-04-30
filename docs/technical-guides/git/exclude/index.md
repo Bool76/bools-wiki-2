@@ -51,7 +51,7 @@ vi .git/info/exclude
 i
 ```
 3. Place files (or I think you can also place a directory) you want to exclude in a list below the header
- ![Image from images folder](~@source/images/git/exclude/git-exclude-example.png)
+ ![Image from images folder](/git/exclude/git-exclude-example.png)
 4. When you're complete making your changes escape out of the file `esc`
 5. Write and quit the file
 ```

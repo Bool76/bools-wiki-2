@@ -100,7 +100,7 @@ With this solution you won't see all of the video. The top and the bottom of the
 <br>
 
 #### Scenario 1: Default look of sample video (alone):  
-   ![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_default-view.png)
+   ![Image from images folder](/frontend-development/html/video-element/html_video-element_default-view.png)
 
    *Breakdown*
    - Video's default width and height are used since nothing is overriding it
@@ -110,7 +110,7 @@ With this solution you won't see all of the video. The top and the bottom of the
 <br>
 
 #### Scenario 2: Default look of sample video w/ a div next to it  
-![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_default-view-w-div.png)
+![Image from images folder](/frontend-development/html/video-element/html_video-element_default-view-w-div.png)
 
 *Breakdown*
 - Video is an inline element by default
@@ -119,7 +119,7 @@ With this solution you won't see all of the video. The top and the bottom of the
 <br>
 
 #### Scenario 3: Video width set to 100% (alone)  
-![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_width-100-percent.png)
+![Image from images folder](/frontend-development/html/video-element/html_video-element_width-100-percent.png)
 
 *Breakdown*
 - Video expands the entire width of the page
@@ -128,7 +128,7 @@ With this solution you won't see all of the video. The top and the bottom of the
 <br>
 
 #### Scenario 4: Video width solution in place / parent div  
-![Image from images folder](~@source/images/frontend-development/html/video-element/html_video-element_overflow-hidden.png)
+![Image from images folder](/frontend-development/html/video-element/html_video-element_overflow-hidden.png)
 
 *Breakdown*
 - In a parent `div` has been added

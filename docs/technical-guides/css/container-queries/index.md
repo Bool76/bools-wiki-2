@@ -22,7 +22,7 @@ Overview - If you use Media queries to control designs, the design of a containe
 NOTE: Of course the design elements need to be inside of said container
 
 *Example*  
-![Image from images folder](~@source/images/css/container-queries/container-query-example-01.png)
+![Image from images folder](/css/container-queries/container-query-example-01.png)
 
 In the above it's a card type container that holds an image, description, and a couple of buttons. It's this card's width that we want to base how it's content will look.
 
