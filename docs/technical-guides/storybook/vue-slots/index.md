@@ -107,7 +107,7 @@ Overview - In a Storybook story, if you call an instance of a component that has
 <br>
 
 **Result:**  
-![Image from images folder](~@source/images/storybook/vue-slot/storybook_vue-slot_default-slot.png)
+![Image from images folder](/storybook/vue-slot/storybook_vue-slot_default-slot.png)
 
 <br><br>
 
@@ -155,7 +155,7 @@ Overview - In a Storybook story, if you call an instance of a component that has
 <br>
 
 **Result:**  
-![Image from images folder](~@source/images/storybook/vue-slot/storybook_vue-slot_2-custom-slots.png)
+![Image from images folder](/storybook/vue-slot/storybook_vue-slot_2-custom-slots.png)
 
 
 <br><br>

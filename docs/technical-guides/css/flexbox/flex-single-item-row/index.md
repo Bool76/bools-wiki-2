@@ -37,4 +37,4 @@ Summary - How to limit one item per row / single row in the Flexbox framework  (
 <br>
 
 *Screenshot*  
-![Image from images folder](~@source/images/css/flexbox/flex-single-row/flex-single-row_flex-basis_example.png)
+![Image from images folder](/css/flexbox/flex-single-row/flex-single-row_flex-basis_example.png)

@@ -4,20 +4,20 @@ Overview - New approach to content layouts by a grid / table type display
 
 <br>
 
-#### Basic Building Concept
+### Basic Building Concept
 
 The number of columns desplayed in the grid layout is mainly controlled by the number of measurements listed for the `grid-template-columns` attribute  
-(e.g. `grid-template-columns: 10px 10px` == 2 columns)  
+(e.g. `grid-template-columns: 10px 10px` == 2 columns)
 
 <br>
 
-#### When to use it
+### When to use it
 
 When a design calls for a simple grid layout / table of content and it makes more sense to use this rather than Flexbox
 
 <br/>
 
-#### Basic Terms
+### Basic Terms
 
 Grid Container - Main / parent container of the Grid
 
@@ -39,19 +39,20 @@ Grid Track - The general term for either a grid row or a grid column
 1. Place child elements into the grid w/ `grid-row` and `grid-column`
 
 ```
-display: flex;
+display: grid;
 ```
 
 <br/><br>
 
 ### Attributes
 
-| Attribute             | Location       | Value       | Description                                                                                             |
+| Attribute             | Grid Level     | Value       | Description                                                                                             |
 | --------------------- | -------------- | ----------- | ------------------------------------------------------------------------------------------------------- |
 | display               | Grid Container | grid        | Designates a container as a Grid Container (parent container of the Grid)                               |
 | display               | Grid Container | inline-grid | Generates an inline-level grid.                                                                         |
-| grid-template-rows    | Grid Container | px, %       | Use when you want a specific row height. Otherwise don't use this and it will be based on content.       |
+| grid-template-rows    | Grid Container | px, %       | Use when you want a specific row height. Otherwise don't use this and it will be based on content.      |
 | grid-template-columns | Grid Container | px, %, auto | Specify the number of columns you want by listing all of their separate widths                          |
+| grid-area             | Grid Item      | tbd         | Only use when the default arrangement of Grid Items isn't what you want                                 |
 | grid-row              | Grid Item      |             | A row oriented control - Specify a grid item's row size and location (e.g. Make item span 2 rows)       |
 | grid-column           | Grid Item      |             | A column oriented control - Specify a grid item's column size and location (e.g. Make item span 2 cols) |
 | column-gap            | Grid Container |             | Formats space between columns                                                                           |
@@ -60,17 +61,18 @@ display: flex;
 
 <br><br>
 
-
 ### grid-template-columns
 
+**Standard Usage**
 
-**Standard Usage**  
 ```
 grid-template-columns: 25% 25% 25% 25%;
 ```
+
 <br>
 
 **Shortcut**
+
 ```
 grid-template-columns: repeat(4, 25%);
 ```

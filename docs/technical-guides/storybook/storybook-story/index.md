@@ -35,7 +35,7 @@ Combination of: Markdown + JSX == MDX
 
 Stories are found within the listed components in the side nav. The first level of organization in the left nav are the listed components:
 
-![Image from images folder](~@source/images/storybook/storybook-story/storybook-story-02.png)
+![Image from images folder](/storybook/storybook-story/storybook-story-02.png)
 
 The components you see in the screenshot are:
 
@@ -49,7 +49,7 @@ The components you see in the screenshot are:
 
 When you expand a component then you'll see the stories created for that component:
 
-![Image from images folder](~@source/images/storybook/storybook-story/storybook-story-01.png)
+![Image from images folder](/storybook/storybook-story/storybook-story-01.png)
 
 The stories that you see for "Button" are:
 

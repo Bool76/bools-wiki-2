@@ -34,7 +34,7 @@ If a width and height are set, then any additional attributes (like padding of b
 <br>
 
 *Screenshot*  
-![Image from images folder](~@source/images/css/box-sizing/box-sizing_content-box_default.png)
+![Image from images folder](/css/box-sizing/box-sizing_content-box_default.png)
 
 **Breakdown**
 - `width: 100%` has been set so the child container should only be the width of the parent container
@@ -62,7 +62,7 @@ If a width and height are set, then any additional attributes (like padding of b
 <br>
 
 *Screenshot*  
-![Image from images folder](~@source/images/css/box-sizing/box-sizing_border-box.png)
+![Image from images folder](/css/box-sizing/box-sizing_border-box.png)
 
 **Breakdown**
 - `width: 100%` has been set so the child container should only be the width of the parent container

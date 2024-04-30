@@ -4,7 +4,7 @@ Overview - Is like Story and Source wrapped up into one. The section of Storyboo
 
 <br>
 
-![Image from images folder](~@source/images/storybook/storybook-basics/storybook-basics_canvas-01.png)
+![Image from images folder](/storybook/storybook-basics/storybook-basics_canvas-01.png)
 
 <br>
 

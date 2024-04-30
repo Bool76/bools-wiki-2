@@ -18,13 +18,13 @@ git rebase -i HEAD~2
 - "-i" == Means go into interactive mode  
 - "2" == Total number of commits in your Feature branch you want to include in this squash process  
 2. You'll see something like the following:  
-![Image from images folder](~@source/images/git/squash-commit/git_squash_select-commits.png)  
+![Image from images folder](/git/squash-commit/git_squash_select-commits.png)  
 3. First you'll see all commits at the top of the screen from oldest on the very top down to the newest:
-![Image from images folder](~@source/images/git/squash-commit/git_squash_commit-list.png)  
+![Image from images folder](/git/squash-commit/git_squash_commit-list.png)  
 4. You now need to indicate what you want to happen to each individual commit message. There are many options listed but you're just concerned with "squash" and "reword". To indicate what to do with each commit you're going to place an "s" or a "p" next to those commits. To do that you need to edit the file.
 5. Use VIM (VI) to edit the file and you know how to do this. Like normal VIM, enter into INSERT mode by typing `i`. 
 6. Set the single letter command next to each commit based on what you want to do with that commit. In this situation you want to "reword" the oldest (commit at the very top) and "squash" all of the reset of the commits into one. Place an "r" next to the top commit and an "s" next to the next commit down:  
-![Image from images folder](~@source/images/git/squash-commit/git_squash_letter-commands.png)  
+![Image from images folder](/git/squash-commit/git_squash_letter-commands.png)  
 > :warning: **Warning:** The "r" command can only be placed on the first line and no other!  
 
 > :memo: **Note:** Just FYI. You had one of these where you had 80 commits! That means you woud have to go in an manually change all of those "pick" to an "s". F that!!! You got smart and used a "find / replace" for VIM. Look at the "Find + Replace" article.
@@ -36,13 +36,13 @@ git rebase -i HEAD~2
     2. Commenting out the other messages  
 
     Here' what the screen looks like:
-![Image from images folder](~@source/images/git/squash-commit/git_squash_edit-messages.png) 
+![Image from images folder](/git/squash-commit/git_squash_edit-messages.png) 
 9. Use VIM once again to edit this item. Here you want to:
     1. Edit the commit message to what you want
     2. Place a `#` next to all other commit message lines (commenting them out)
     3. Esc and `:wq` 
 10. You'll get booted out of that file and back to your command line where you should see some sort of success message:  
-![Image from images folder](~@source/images/git/squash-commit/git_squash_success.png) 
+![Image from images folder](/git/squash-commit/git_squash_success.png) 
 11. To verify this has done what you indented - Check the git log to see the list of commit messages:  
 ```
 git log

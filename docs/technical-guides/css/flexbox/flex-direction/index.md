@@ -23,7 +23,7 @@ Overview - Defines the main axis of how the content will be presented in the fle
 <br>
 
 *Example*  
-![Image from images folder](~@source/images/css/flexbox/flex-direction/flex-direction-example.png)  
+![Image from images folder](/css/flexbox/flex-direction/flex-direction-example.png)  
 
 Orange == Row example  
 Yellow == Row-Reverse example  

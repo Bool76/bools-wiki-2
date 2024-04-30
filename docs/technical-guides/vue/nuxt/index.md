@@ -162,7 +162,7 @@ v-model:newName
 
 **Simplified Example**
 
-  ![Image from images folder](~@source/images/vue/vue_v-model_simplified.png)
+  ![Image from images folder](/vue/vue_v-model_simplified.png)
 
 title == Name of the prop that will be available in the child component  
 pageTitle == Data in the parent component that we are binding

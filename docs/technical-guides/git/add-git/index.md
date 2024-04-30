@@ -39,7 +39,7 @@ git clone git@github.com:Bool76/vue-tailwindcss.git
 git status
 ```
 11. You should see all of the new files that you just copied over  
-![Image from images folder](~@source/images/git/add-git/git_add-git_untracked-files.png)
+![Image from images folder](/git/add-git/git_add-git_untracked-files.png)
 
 1. Do as you normally would and add the untracked files and create a commit
 1. Now push this change to Github
@@ -47,7 +47,7 @@ git status
 git push -u origin <<feature-branch-name>>
 ```
 > :warning: **Warning:** You might come across a message such as:  
-![Image from images folder](~@source/images/git/add-git/git_add-git_upstream-is-gone.png)
+![Image from images folder](/git/add-git/git_add-git_upstream-is-gone.png)
 
 14. Do what they recommend and run:
 ```

@@ -11,10 +11,10 @@ This aricle is how to clear that alert and run your report
 1. Open the Developer Tools
 2. Go to the "Lighthouse" tab
 3. You see the troublesome alert  
-![Image from images folder](~@source/images/chrome/lighthouse/clear-cache/lighthouse_clear-cache_alert.png)
+![Image from images folder](/chrome/lighthouse/clear-cache/lighthouse_clear-cache_alert.png)
 4. Find the "Application" tab  - Click it  
-![Image from images folder](~@source/images/chrome/lighthouse/clear-cache/lighthouse_clear-cache_application.png)
+![Image from images folder](/chrome/lighthouse/clear-cache/lighthouse_clear-cache_application.png)
 1. Find the "Clear Site Data" btn - Click it  
-![Image from images folder](~@source/images/chrome/lighthouse/clear-cache/lighthouse_clear-cache_clear-site-data.png)
+![Image from images folder](/chrome/lighthouse/clear-cache/lighthouse_clear-cache_clear-site-data.png)
 1. Go back to the Lighthouse section
 2. You should no longer see the alert
