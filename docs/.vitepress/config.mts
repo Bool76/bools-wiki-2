@@ -832,6 +832,10 @@ export default defineConfig({
                     },
                   ],
                 },
+                {
+                  text: 'Time Off',
+                  link: '/technical-guides/sram-dev/sram-time-off'
+                },
               ],
             }, 
             {
