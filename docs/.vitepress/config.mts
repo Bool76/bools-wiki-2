@@ -937,6 +937,24 @@ export default defineConfig({
                   link: "/technical-guides/vue/container-queries/",
                 },
                 {
+                  text: "Codevolution Class",
+                  link: "/technical-guides/vue/codevolution/",
+                  items: [
+                    {
+                      text: "Tutorial 3 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-3"
+                    },
+                    {
+                      text: "Tutorial 4 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-4"
+                    },
+                    {
+                      text: "Tutorial 5 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-5"
+                    }
+                  ]
+                },
+                {
                   text: "Custom Props",
                   link: "/technical-guides/vue/custom-props/",
                 },
