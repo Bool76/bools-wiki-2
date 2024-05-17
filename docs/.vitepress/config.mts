@@ -951,6 +951,14 @@ export default defineConfig({
                     {
                       text: "Tutorial 5 Notes",
                       link: "/technical-guides/vue/codevolution/codevolution-tutorial-5"
+                    },
+                    {
+                      text: "Tutorial 6 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-6"
+                    },
+                    {
+                      text: "Tutorial 7 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-7"
                     }
                   ]
                 },
