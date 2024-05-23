@@ -40,6 +40,12 @@ export default defineConfig({
                 {
                   text: "Core MVC",
                   link: "/technical-guides/c-sharp/core-mvc/",
+                  items: [
+                    {
+                      text: "Controllers",
+                      link: "/technical-guides/c-sharp/core-mvc/controllers"
+                    }
+                  ]
                 },
                 {
                   text: "List Class",
