@@ -91,3 +91,21 @@ A controller can have one to many action methods
 
 Each action method acts as an endpoint
 
+
+## End points?
+
+The name of the function in the end point, needs to be the same as the view file that you want it to point to
+
+*Example*
+```
+public IActionResult Index()
+{
+    return View();
+}
+```
+
+!Yeah I don't think that's right and I don't thnk that's an end point but really just a version of an Action Method
+
+You might have to use the `[route("Home")]` or something like that to change the route. 
+
+But I do have questions. Like can I just use the `[route]` by itself? 
