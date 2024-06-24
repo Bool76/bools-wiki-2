@@ -766,6 +766,10 @@ export default defineConfig({
                   ],
                 },
                 {
+                  text: "Rider Support Tools",
+                  link: "/technical-guides/sram-dev/rider-support-tools",
+                },
+                {
                   text: "slr2",
                   link: "/technical-guides/sram-dev/slr2/",
                   collapsed: true,
