@@ -219,6 +219,22 @@ export default defineConfig({
                   link: "/technical-guides/frontend-development/aspect-ratio/",
                 },
                 {
+                  text: "Bootstrap",
+                  link: "/technical-guides/frontend-development/bootstrap/",
+                  collapsed: true, 
+                  items: [
+                    {
+                      text: "Breakpoints",
+                      link: "/technical-guides/frontend-development/bootstrap/bootstrap-breakpoints",
+                    },
+                    {
+                      text: "Margins + Padding",
+                      link: "/technical-guides/frontend-development/bootstrap/bootstrap-margins-padding",
+                    }
+                  ]
+                },
+
+                {
                   text: "Container Queries",
                   link: "/technical-guides/frontend-development/container-queries/",
                 },
