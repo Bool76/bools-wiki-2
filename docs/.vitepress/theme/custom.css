@@ -2,6 +2,6 @@
     --vp-layout-max-width: 1600px
 }
 
-p {
+body, p {
     font-size: 14px;
 }

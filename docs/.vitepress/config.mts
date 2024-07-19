@@ -220,7 +220,7 @@ export default defineConfig({
                 },
                 {
                   text: "Bootstrap",
-                  link: "/technical-guides/frontend-development/bootstrap/",
+                  link: "/technical-guides/frontend-development/bootstrap",
                   collapsed: true, 
                   items: [
                     {
@@ -233,7 +233,10 @@ export default defineConfig({
                     }
                   ]
                 },
-
+                {
+                  text: "Build Tools",
+                  link: "/technical-guides/frontend-development/build-tools/",
+                },
                 {
                   text: "Container Queries",
                   link: "/technical-guides/frontend-development/container-queries/",
