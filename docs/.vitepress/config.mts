@@ -199,6 +199,10 @@ export default defineConfig({
               ],
             },
             {
+              text: 'Elasticsearch',
+              link: '/technical-guides/elasticsearch/'
+            },
+            {
               text: "Frontend Development",
               link: "/technical-guides/frontend-development/",
               collapsed: true,
@@ -1129,6 +1133,17 @@ export default defineConfig({
                   link: '/other/music/vocal-range/'
                 }
               ]
+            },
+            {
+              text: 'Project Jewel',
+              link: '/other/project-jewel/',
+              collapsed: true,
+              items: [
+                {
+                  text: '2024',
+                  link: '/other/project-jewel/2024/',
+                },
+              ],
             },
             {
               text: "Random Thoughts",
