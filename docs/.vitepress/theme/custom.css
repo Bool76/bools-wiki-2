@@ -1,0 +1,11 @@
+:root {
+    --vp-layout-max-width: 1600px
+}
+
+body, p {
+    font-size: 14px;
+}
+
+.content-container {
+    max-width: 850px;
+}

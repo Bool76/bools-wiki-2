@@ -40,6 +40,12 @@ export default defineConfig({
                 {
                   text: "Core MVC",
                   link: "/technical-guides/c-sharp/core-mvc/",
+                  items: [
+                    {
+                      text: "Controllers",
+                      link: "/technical-guides/c-sharp/core-mvc/controllers"
+                    }
+                  ]
                 },
                 {
                   text: "List Class",
@@ -193,6 +199,10 @@ export default defineConfig({
               ],
             },
             {
+              text: 'Elasticsearch',
+              link: '/technical-guides/elasticsearch/'
+            },
+            {
               text: "Frontend Development",
               link: "/technical-guides/frontend-development/",
               collapsed: true,
@@ -211,6 +221,25 @@ export default defineConfig({
                 {
                   text: "Aspect Ratio",
                   link: "/technical-guides/frontend-development/aspect-ratio/",
+                },
+                {
+                  text: "Bootstrap",
+                  link: "/technical-guides/frontend-development/bootstrap",
+                  collapsed: true, 
+                  items: [
+                    {
+                      text: "Breakpoints",
+                      link: "/technical-guides/frontend-development/bootstrap/bootstrap-breakpoints",
+                    },
+                    {
+                      text: "Margins + Padding",
+                      link: "/technical-guides/frontend-development/bootstrap/bootstrap-margins-padding",
+                    }
+                  ]
+                },
+                {
+                  text: "Build Tools",
+                  link: "/technical-guides/frontend-development/build-tools/",
                 },
                 {
                   text: "Container Queries",
@@ -760,6 +789,10 @@ export default defineConfig({
                   ],
                 },
                 {
+                  text: "Rider Support Tools",
+                  link: "/technical-guides/sram-dev/rider-support-tools",
+                },
+                {
                   text: "slr2",
                   link: "/technical-guides/sram-dev/slr2/",
                   collapsed: true,
@@ -937,6 +970,32 @@ export default defineConfig({
                   link: "/technical-guides/vue/container-queries/",
                 },
                 {
+                  text: "Codevolution Class",
+                  link: "/technical-guides/vue/codevolution/",
+                  items: [
+                    {
+                      text: "Tutorial 3 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-3"
+                    },
+                    {
+                      text: "Tutorial 4 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-4"
+                    },
+                    {
+                      text: "Tutorial 5 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-5"
+                    },
+                    {
+                      text: "Tutorial 6 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-6"
+                    },
+                    {
+                      text: "Tutorial 7 Notes",
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-7"
+                    }
+                  ]
+                },
+                {
                   text: "Custom Props",
                   link: "/technical-guides/vue/custom-props/",
                 },
@@ -1076,6 +1135,17 @@ export default defineConfig({
               ]
             },
             {
+              text: 'Project Jewel',
+              link: '/other/project-jewel/',
+              collapsed: true,
+              items: [
+                {
+                  text: '2024',
+                  link: '/other/project-jewel/2024/',
+                },
+              ],
+            },
+            {
               text: "Random Thoughts",
               link: "/other/random-thoughts/",
               collapsed: true,
@@ -1083,6 +1153,10 @@ export default defineConfig({
                 {
                   text: "2023-12-22",
                   link: "/other/random-thoughts/2023-12-22"
+                },
+                {
+                  text: "2024-08-30",
+                  link: "/other/random-thoughts/2024-08-30"
                 }
               ]
             },
