@@ -5,3 +5,7 @@
 body, p {
     font-size: 14px;
 }
+
+.content-container {
+    max-width: 850px;
+}

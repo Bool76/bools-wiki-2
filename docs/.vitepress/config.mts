@@ -1153,6 +1153,10 @@ export default defineConfig({
                 {
                   text: "2023-12-22",
                   link: "/other/random-thoughts/2023-12-22"
+                },
+                {
+                  text: "2024-08-30",
+                  link: "/other/random-thoughts/2024-08-30"
                 }
               ]
             },
