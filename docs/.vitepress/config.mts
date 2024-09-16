@@ -400,6 +400,10 @@ export default defineConfig({
                   link: "/technical-guides/javascript/basics/",
                 },
                 {
+                  text: "Environment",
+                  link: "/technical-guides/javascript/environment/",
+                },
+                {
                   text: "Functions",
                   link: "/technical-guides/javascript/functions/",
                 },
@@ -787,6 +791,10 @@ export default defineConfig({
                       link: "/technical-guides/sram-dev/epi/locate-template/",
                     },
                   ],
+                },
+                {
+                  text: "IT Installs + Upgrades",
+                  link: "/technical-guides/sram-dev/it-installs-upgrades",
                 },
                 {
                   text: "Rider Support Tools",

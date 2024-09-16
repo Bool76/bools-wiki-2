@@ -22,8 +22,10 @@ How do I make the unknown exciting?
 
 ## New Framework
 
-| Instance   | General State | Feeling                                          | Replacement Action / Action            |
-| ---------- | ------------- | ------------------------------------------------ | -------------------------------------- |
-| 2024-08-30 | Contracted    | Deflated by co-workers. Question abilities       | Type to Sean. Music. Talk out loud     |
-| 2024-08-30 | Expanded      | Open. Present.                                   | Talking out loud. Working on problems. |
-| 2024-09-05 | Contracted    | Vulnerable to criticism. Lack of faith in myself | Typing. Coding. Typing on this         |
+| Instance   | General State | Feeling                                          | Replacement Action / Action                           |
+| ---------- | ------------- | ------------------------------------------------ | ----------------------------------------------------- |
+| 2024-08-30 | Contracted    | Deflated by co-workers. Question abilities       | Type to Sean. Music. Talk out loud                    |
+| 2024-08-30 | Expanded      | Open. Present.                                   | Talking out loud. Working on problems.                |
+| 2024-09-05 | Contracted    | Vulnerable to criticism. Lack of faith in myself | Typing. Coding. Typing on this                        |
+| 2024-09-13 | Contracted    | Lazy. Rudderless.                                | Javascript project. Talk out loud. Small postit goals |
+| 2024-09-13 | Limited       | Disinterest. Too hard. Stuck. Frustrated         | Talking. Small bites. Write simple code.              |
