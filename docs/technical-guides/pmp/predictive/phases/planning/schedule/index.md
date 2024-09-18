@@ -83,7 +83,7 @@ Summary - Typically overall project schedule estimates are broken down into thre
 >Top Range: 6 * 0.75 == 4.5, 6 + 4.5 == 10.5 months  
 >Lower Range: 6 * 0.25 == 1.5, 6 - 1.5 == 4.5 months   
 > <br>
-> Rough Order of Magnitude: 4.5 months - 10.5 months
+> Rough Order of Magnitude: 4.5 months <-> 10.5 months
 
 
 <br><br>
@@ -107,7 +107,7 @@ Summary - Typically overall project schedule estimates are broken down into thre
 >Top Range: 6 * 0.25 == 1.5, 6 + 1.5 == 7.5 months  
 >Lower Range: 6 * 0.1- == 0.4, 6 - 0.4 == 5.4 months   
 > <br>
-> Budget Estimate: 5.4 months - 7.5 months
+> Budget Estimate: 5.4 months <-> 7.5 months
 
 
 <br><br>
@@ -128,10 +128,10 @@ Summary - Typically overall project schedule estimates are broken down into thre
 *Example*
 
 >Original Estimate: 6 months  
->Top Range: 6 * 0.1- == 0.4, 6 + 0.4 == 6.4 months 
->Lower Range: 6 * 0.05- == 0.3, 6 - 0.3 == 5.7 months   
+>Top Range: 6 * 0.1- == 0.4, 6 + 0.4 == 6.4 months  
+>Lower Range: 6 * 0.05- == 0.3, 6 - 0.3 == 5.7 months    
 > <br>
-> Definitive Estimate: 5.7 months - 6.4 months
+> Definitive Estimate: 5.7 months <-> 6.4 months
 
 <br><br>
 

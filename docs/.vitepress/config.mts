@@ -443,6 +443,10 @@ export default defineConfig({
                   link: "/technical-guides/markdown/hyperlink/",
                 },
                 {
+                  text: "Indent",
+                  link: "/technical-guides/markdown/indent",
+                },
+                {
                   text: "Insert Image",
                   link: "/technical-guides/markdown/insert-image/",
                 },
