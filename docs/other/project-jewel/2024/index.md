@@ -29,3 +29,4 @@ How do I make the unknown exciting?
 | 2024-09-05 | Contracted    | Vulnerable to criticism. Lack of faith in myself | Typing. Coding. Typing on this                        |
 | 2024-09-13 | Contracted    | Lazy. Rudderless.                                | Javascript project. Talk out loud. Small postit goals |
 | 2024-09-13 | Limited       | Disinterest. Too hard. Stuck. Frustrated         | Talking. Small bites. Write simple code.              |
+| 2024-09-17 | Limited       | Backed in corner. Worthless.                     | Simple list items.                                    |
