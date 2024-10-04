@@ -259,6 +259,14 @@ export default defineConfig({
                       link: "/technical-guides/frontend-development/html/focusing-elements/",
                     },
                     {
+                      text: "getElementsByClassName",
+                      link: "/technical-guides/frontend-development/html/get-elements-by-class-name",
+                    },
+                    {
+                      text: "HTMLCollection",
+                      link: "/technical-guides/frontend-development/html/html-collection",
+                    },
+                    {
                       text: "Video Element",
                       link: "/technical-guides/frontend-development/html/video-element/",
                     },
@@ -402,6 +410,10 @@ export default defineConfig({
                 {
                   text: "Environment",
                   link: "/technical-guides/javascript/environment/",
+                },
+                {
+                  text: "For Loops",
+                  link: "/technical-guides/javascript/javascript-for-loop",
                 },
                 {
                   text: "Functions",
@@ -794,6 +806,10 @@ export default defineConfig({
                       text: "Locate Template",
                       link: "/technical-guides/sram-dev/epi/locate-template/",
                     },
+                    {
+                      text: "Template List",
+                      link: "/technical-guides/sram-dev/epi/epi-template-list",
+                    },
                   ],
                 },
                 {
@@ -802,7 +818,18 @@ export default defineConfig({
                 },
                 {
                   text: "Rider Support Tools",
-                  link: "/technical-guides/sram-dev/rider-support-tools",
+                  link: "/technical-guides/sram-dev/rider-support-tools/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Run Test Cases",
+                      link: "/technical-guides/sram-dev/rider-support-tools/rider-support-run-tests",
+                    },
+                    {
+                      text: "Start Environment",
+                      link: "/technical-guides/sram-dev/rider-support-tools/rider-support-start-env",
+                    }
+                  ]
                 },
                 {
                   text: "slr2",
