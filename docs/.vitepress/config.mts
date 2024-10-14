@@ -259,6 +259,14 @@ export default defineConfig({
                       link: "/technical-guides/frontend-development/html/focusing-elements/",
                     },
                     {
+                      text: "getElementsByClassName",
+                      link: "/technical-guides/frontend-development/html/get-elements-by-class-name",
+                    },
+                    {
+                      text: "HTMLCollection",
+                      link: "/technical-guides/frontend-development/html/html-collection",
+                    },
+                    {
                       text: "Video Element",
                       link: "/technical-guides/frontend-development/html/video-element/",
                     },
@@ -400,6 +408,14 @@ export default defineConfig({
                   link: "/technical-guides/javascript/basics/",
                 },
                 {
+                  text: "Environment",
+                  link: "/technical-guides/javascript/environment/",
+                },
+                {
+                  text: "For Loops",
+                  link: "/technical-guides/javascript/javascript-for-loop",
+                },
+                {
                   text: "Functions",
                   link: "/technical-guides/javascript/functions/",
                 },
@@ -437,6 +453,10 @@ export default defineConfig({
                 {
                   text: "Hyperlink",
                   link: "/technical-guides/markdown/hyperlink/",
+                },
+                {
+                  text: "Indent",
+                  link: "/technical-guides/markdown/indent",
                 },
                 {
                   text: "Insert Image",
@@ -786,11 +806,30 @@ export default defineConfig({
                       text: "Locate Template",
                       link: "/technical-guides/sram-dev/epi/locate-template/",
                     },
+                    {
+                      text: "Template List",
+                      link: "/technical-guides/sram-dev/epi/epi-template-list",
+                    },
                   ],
                 },
                 {
+                  text: "IT Installs + Upgrades",
+                  link: "/technical-guides/sram-dev/it-installs-upgrades",
+                },
+                {
                   text: "Rider Support Tools",
-                  link: "/technical-guides/sram-dev/rider-support-tools",
+                  link: "/technical-guides/sram-dev/rider-support-tools/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Run Test Cases",
+                      link: "/technical-guides/sram-dev/rider-support-tools/rider-support-run-tests",
+                    },
+                    {
+                      text: "Start Environment",
+                      link: "/technical-guides/sram-dev/rider-support-tools/rider-support-start-env",
+                    }
+                  ]
                 },
                 {
                   text: "slr2",
@@ -820,6 +859,10 @@ export default defineConfig({
                   link: "/technical-guides/sram-dev/sramconnect/",
                   collapsed: true,
                   items: [
+                    {
+                      text: "3-Up Content Block Examples",
+                      link: "/technical-guides/sram-dev/sramconnect/3-up-content-block-examples",
+                    },
                     {
                       text: "Compile C#",
                       link: "/technical-guides/sram-dev/sramconnect/compile-c-sharp/",

@@ -76,9 +76,11 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Bidders Conference                                     | Planning -> Procurement                                          |                                                               |
 | Bottom Up (Estimates)                                  | Planning -> Schedule<br>Planning -> Cost Estimates               |                                                               |
 | Bubble Chart                                           | Execute -> Risk                                                  |                                                               |
+| Budget Estimate                                        | Planning -> Schedule                                             |                                                               |
 | Context Diagram                                        | Planning -> Requirements(?)                                      |                                                               |
 | Control Chart                                          | Planning -> Quality                                              |                                                               |
 | Design for X                                           | Planning -> Quality                                              |                                                               |
+| Definitive Estimate                                    | Planning -> Schedule                                             |                                                               |
 | Directions of Influence                                | Execute -> Communication<br> Execute -> Stakeholder              |                                                               |
 | Dreyfus Model of Skill Acquisition                     | Building -> Team<br>Monitor -> Team Performance                  |                                                               |
 | Duration                                               | Planning -> Schedule                                             |                                                               |
@@ -114,6 +116,7 @@ Summary - Throughout the Predictive model there are many tools you can use. Thes
 | Reserve Analysis                                       | Planning -> Control Costs                                        |                                                               |
 | Responsibility Assignment Matrix                       | Building -> Team<br> Execute -> Stakeholders                     |                                                               |
 | Risk Breakdown Structure                               | Execute -> Risk                                                  |                                                               |
+| Rough Order of Magnitude                               | Planning -> Schedule                                             |                                                               |
 | Salience Model                                         | Execute -> Stakeholders                                          |                                                               |
 | Scatter Diagram                                        | Planning -> Quality                                              |                                                               |
 | Schedule Network Analysis                              | Planning -> Schedule                                             |                                                               |
