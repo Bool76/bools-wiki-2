@@ -860,6 +860,10 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     {
+                      text: "3-Up Content Block Examples",
+                      link: "/technical-guides/sram-dev/sramconnect/3-up-content-block-examples",
+                    },
+                    {
                       text: "Compile C#",
                       link: "/technical-guides/sram-dev/sramconnect/compile-c-sharp/",
                     },
