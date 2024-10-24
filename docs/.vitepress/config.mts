@@ -961,6 +961,17 @@ export default defineConfig({
               ],
             }, 
             {
+              text: "Vitepress",
+              link: "/technical-guides/vitepress/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Vitepress Theming",
+                  link: "/technical-guides/vitepress/vitepress-theming/"
+                },
+              ]
+            },
+            {
               text: "VS Code",
               link: "/technical-guides/vscode/",
               collapsed: true,
