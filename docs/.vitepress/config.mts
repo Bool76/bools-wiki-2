@@ -1199,25 +1199,6 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              text: "Random Thoughts",
-              link: "/other/random-thoughts/",
-              collapsed: true,
-              items: [
-                {
-                  text: "2023-12-22",
-                  link: "/other/random-thoughts/2023-12-22"
-                },
-                {
-                  text: "2024-08-30",
-                  link: "/other/random-thoughts/2024-08-30"
-                },
-                {
-                  text: "2024-10-24",
-                  link: "/other/random-thoughts/2024-10-24"
-                }
-              ]
-            },
           ]
         }
       ]

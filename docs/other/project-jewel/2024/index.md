@@ -18,6 +18,8 @@
 | 2024-09-20 | Limited       | Dont know where to start                         | Write wiki on topic. Music on. Sit close to monitor.     |                            |
 | 2024-10-21 | Limited       | Want to do anything but                          | Write in wiki. Write small achievable goal.              | Better but can easily fail |
 | 2024-10-25 | Limited       | Don't know how to start                          | Wrote in wiki. Small goals.                              |                            |
+| 2024-10-28 | Limited       | High energy. Want to succeed                     | Wrote in wiki. Practice JS.                              |                            |
+| 2024-10-29 | Limited       | Disappointed                                     | Write some JS in JS Fiddle. Check in 10                  | Worked well. Able to focus |
 
 <br>
 

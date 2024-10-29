@@ -2,7 +2,9 @@
 
 Overview - A way to store steps that will typically result in returning a value
 
-### Parts of Function
+<br>
+
+## Parts of Function
 
 1. Name
 1. Arguments (parentheses) == Think of these are paramenters. This is when input values are needed to perform a function's code block.
@@ -27,9 +29,7 @@ Code Block == Everything that you see inside of the curly brackets
 
 <br><br>
 
----
-
-### Calling a Function
+## Calling a Function
 
 Whenever you want to use a function that has been written you simply have to call it. What do you need to call it?
 
@@ -58,11 +58,38 @@ getHelloMessage(name);
 Function Name == getHelloMessage  
 Parameter == name
 
+<br>
+
+
+### Calling Function from Button
+
+Commonly you could see functions being called from a button click from some html code. Here's how to do that
+
+```html
+<script>
+function alertMessage(){
+  alert("This is an alert message")
+}
+<script>
+
+<button onClick="alertMessage()">
+  click me
+</button>
+
+```
+*Breakdown*  
+Maybe the best way to think of this is that you need some sort of event to call the function. Which is the `onClick` event. 
+
+`onClick` is then set to the name of the Javascript function but it's done so in quotes. Which is weird. 
+
+You might have thought that it shouldn't include quotes because it's calling a function. But HTML doesn't know it's a function. This is written in HTML so it doesn't understand it's a function. Maybe that's a good way to think of it. 
+
+
+
+
 <br><br>
 
----
-
-### Functions w/ Arugments
+## Functions w/ Arugments
 
 Why do functions have arguments (parameters)? Sometimes functions need specific information to perform it's task. Therefore these values need to be passed into the function. There are two different ways arguments can be passed into a function:
 
