@@ -959,6 +959,17 @@ export default defineConfig({
                   link: "/technical-guides/storybook/vue-slots/",
                 },
               ],
+            },
+            {
+              text: "Visual Studio",
+              link: "/technical-guides/visual-studio/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Screenshot Not Working",
+                  link: "/technical-guides/visual-studio/visual-studio-screenshot"
+                },
+              ]
             }, 
             {
               text: "Vitepress",
@@ -1196,6 +1207,12 @@ export default defineConfig({
                 {
                   text: '2024',
                   link: '/other/project-jewel/2024/',
+                  items: [
+                    {
+                      text: '2024 Breakout',
+                      link: '/other/project-jewel/2024/2024-breakout',
+                    }
+                  ]
                 },
               ],
             },

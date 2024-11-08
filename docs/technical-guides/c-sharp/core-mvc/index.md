@@ -20,22 +20,24 @@ Overview - This section covers the web app development tool from .Net
 
 <br><br>
 
-### Controllers
+
+## Controllers
 
 The controller retrieves data from a data source and decides what type of response to send back to the browser.     
 
-#### Methods & Classes in Controllers
+<br>
 
-Every method that has been deemed to be public, is callable as an HTTP endpoint
+### Methods & Classes in Controllers
 
-Controller methods are also called *Action Methods*
-
-A controller class is where the code is written that handles the incoming browser requests.
+- Every method that has been deemed to be public, is callable as an HTTP endpoint
+- Controller methods are also called *Action Methods*
+- A controller class is where the code is written that handles the incoming browser requests.
 
 *NOTE:  A method is a function that is associated with a class.Jan 9, 2023*
 
+<br>
 
-#### Controller's URLs
+### Controller's URLs
 
 Controller actions are invoked in response to an incoming URL request
 

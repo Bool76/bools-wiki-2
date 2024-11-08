@@ -4,22 +4,26 @@
 
 ## Framework
 
-| Instance   | General State | Feeling                                          | Replacement Action / Action                              | Result                     |
-| ---------- | ------------- | ------------------------------------------------ | -------------------------------------------------------- | -------------------------- |
-| 2024-08-30 | Contracted    | Deflated by co-workers. Question abilities       | Type to Sean. Music. Talk out loud                       |                            |
-| 2024-08-30 | Expanded      | Open. Present.                                   | Talking out loud. Working on problems.                   |                            |
-| 2024-09-05 | Contracted    | Vulnerable to criticism. Lack of faith in myself | Typing. Coding. Typing on this                           |                            |
-| 2024-09-13 | Contracted    | Lazy. Rudderless.                                | Javascript project. Talk out loud. Small postit goals    |                            |
-| 2024-09-13 | Limited       | Disinterest. Too hard. Stuck. Frustrated         | Talking. Small bites. Write simple code.                 |                            |
-| 2024-09-17 | Limited       | Backed in corner. Worthless.                     | Simple list items.                                       |                            |
-| 2024-09-18 | Limited       | Pressure. Failure.                               | Write code. Then bite sized items.                       |                            |
-| 2024-09-19 | Limited       | Stressed. Can't start.                           | Write code. Type chat w/ friends. Small list.            | Failed                     |
-| 2024-09-19 | Limited       | Don't know how to start                          | Write basic code. Hat on. Music on. Notes on what I read | Good                       |
-| 2024-09-20 | Limited       | Dont know where to start                         | Write wiki on topic. Music on. Sit close to monitor.     |                            |
-| 2024-10-21 | Limited       | Want to do anything but                          | Write in wiki. Write small achievable goal.              | Better but can easily fail |
-| 2024-10-25 | Limited       | Don't know how to start                          | Wrote in wiki. Small goals.                              |                            |
-| 2024-10-28 | Limited       | High energy. Want to succeed                     | Wrote in wiki. Practice JS.                              |                            |
-| 2024-10-29 | Limited       | Disappointed                                     | Write some JS in JS Fiddle. Check in 10                  | Worked well. Able to focus |
+| Instance | General State | Feeling                                          | Replacement Action / Action                              | Result                           |
+| -------- | ------------- | ------------------------------------------------ | -------------------------------------------------------- | -------------------------------- |
+| 08-30    | Contracted    | Deflated by co-workers. Question abilities       | Type to Sean. Music. Talk out loud                       |                                  |
+| 08-30    | Expanded      | Open. Present.                                   | Talking out loud. Working on problems.                   |                                  |
+| 09-05    | Contracted    | Vulnerable to criticism. Lack of faith in myself | Typing. Coding. Typing on this                           |                                  |
+| 09-13    | Contracted    | Lazy. Rudderless.                                | Javascript project. Talk out loud. Small postit goals    |                                  |
+| 09-13    | Limited       | Disinterest. Too hard. Stuck. Frustrated         | Talking. Small bites. Write simple code.                 |                                  |
+| 09-17    | Limited       | Backed in corner. Worthless.                     | Simple list items.                                       |                                  |
+| 09-18    | Limited       | Pressure. Failure.                               | Write code. Then bite sized items.                       |                                  |
+| 09-19    | Limited       | Stressed. Can't start.                           | Write code. Type chat w/ friends. Small list.            | Failed                           |
+| 09-19    | Limited       | Don't know how to start                          | Write basic code. Hat on. Music on. Notes on what I read | Good                             |
+| 09-20    | Limited       | Dont know where to start                         | Write wiki on topic. Music on. Sit close to monitor.     |                                  |
+| 10-21    | Limited       | Want to do anything but                          | Write in wiki. Write small achievable goal.              | Better but can easily fail       |
+| 10-25    | Limited       | Don't know how to start                          | Wrote in wiki. Small goals.                              |                                  |
+| 10-28    | Limited       | High energy. Want to succeed                     | Wrote in wiki. Practice JS.                              |                                  |
+| 10-29    | Limited       | Disappointed                                     | Write some JS in JS Fiddle. Check in 10                  | Worked well. Able to focus       |
+| 10-30    | Limited       | Avoiding Teams message. Did something wrong?     | Build confidence. Attack. Write code and don't avoid     | Positive. Wasn't something I did |
+| 10-30    | Limited       | Bound to fail                                    | Write code. Sm goals. "Old Money" song.                  | Positive. Got me started.        |
+| 11-05    | Limited       | Afraid. Won't have the answers.                  | Write down who you are. Breakout. One point at a time.   | Positive. Just take your time.   |
+| 11-07     | Limited       | Challenged. Angry.                               | Read once. Break. Read in pieces. Take notes.            |                                  |
 
 <br>
 

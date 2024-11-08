@@ -1,6 +1,6 @@
 # Markdown | Insert Image
 
-Summary - How to insert an image into a markdown article
+Summary - There appear to be two possible ways to insert images in Markdown. I must note that 
 
 #### Code Sample
 
