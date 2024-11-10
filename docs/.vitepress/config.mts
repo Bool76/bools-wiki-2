@@ -959,7 +959,29 @@ export default defineConfig({
                   link: "/technical-guides/storybook/vue-slots/",
                 },
               ],
+            },
+            {
+              text: "Visual Studio",
+              link: "/technical-guides/visual-studio/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Screenshot Not Working",
+                  link: "/technical-guides/visual-studio/visual-studio-screenshot"
+                },
+              ]
             }, 
+            {
+              text: "Vitepress",
+              link: "/technical-guides/vitepress/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Vitepress Theming",
+                  link: "/technical-guides/vitepress/vitepress-theming/"
+                },
+              ]
+            },
             {
               text: "VS Code",
               link: "/technical-guides/vscode/",
@@ -1185,23 +1207,14 @@ export default defineConfig({
                 {
                   text: '2024',
                   link: '/other/project-jewel/2024/',
+                  items: [
+                    {
+                      text: '2024 Breakout',
+                      link: '/other/project-jewel/2024/2024-breakout',
+                    }
+                  ]
                 },
               ],
-            },
-            {
-              text: "Random Thoughts",
-              link: "/other/random-thoughts/",
-              collapsed: true,
-              items: [
-                {
-                  text: "2023-12-22",
-                  link: "/other/random-thoughts/2023-12-22"
-                },
-                {
-                  text: "2024-08-30",
-                  link: "/other/random-thoughts/2024-08-30"
-                }
-              ]
             },
           ]
         }

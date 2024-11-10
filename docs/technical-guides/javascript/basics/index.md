@@ -2,11 +2,15 @@
 
 Overview - Breaking down some basic important concepts to remember about Javascript
 
-### Curly Brackets - { }
+## Curly Brackets - `{ }`
+
+<br>
 
 #### With a Variable
 
 When you see these know that you're seeing an object
+
+<br>
 
 #### With a Function
 
@@ -14,7 +18,7 @@ Everything within the curly brackets w/ a function is part of the function and w
 
 <br><br>
 
-### Square Brackets - [ ]
+## Square Brackets - `[ ]`
 
 #### With a Variable
 

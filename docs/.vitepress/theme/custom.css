@@ -6,6 +6,11 @@ body, p {
     font-size: 14px;
 }
 
-.content-container {
-    max-width: 900px;
+ 
+.VPDoc.has-aside :deep(.content-container)
+     {
+        max-width: 900px !important;
 }
+
+
+
