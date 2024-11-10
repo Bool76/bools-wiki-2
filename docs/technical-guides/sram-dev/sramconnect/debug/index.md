@@ -60,3 +60,32 @@ In Sramconnect you are debugging some input from an API. We are going to fire of
 
 1. To stop debugging click the red stop icon:
 ![Image from images folder](/sram-dev/sramconnect/debug/debugging-stop-debug.png)
+
+
+<br><br>
+
+### PROBLEM SOLVING: If Unable to Attach
+
+<br><br>
+
+#### "Reattach to wpw3.exe" is in Debug Menu
+
+Scenario - All of a sudden when I select "Reattach to wpw3.exe" from the Debug menu, then a popup window displayed and said that I needed to attach the process. However I had already attached the process and hence I could see the "Reattach to wpw3.exe" in the Debug menu
+
+##### Steps
+1. Make sure that you're running as an admin
+    1. Close out Visual Studio code
+    1. Search for Visual Studio through the Windows option
+    1. When you see the app listed, right click on it, select run as admin
+1. Make sure that Azurite is running
+    1. Open VS Code if you want to run it through there
+    1. In the terminal of VS Code type `azurite`
+    1. You should now see Azurite start to run
+1. You might want to Rebuild your project in Visual Studio
+    1. In Visual Studio go to - Build
+    1. Select - Rebuild Solution
+1. Make sure that in instance of a sramconnect site is open and running (e.g. sram.com on your local)
+    1. Open a new tab in Chrome
+    1. Go to - http://local.sram.com/
+    1. Once that loads you should be fine, you don't even have to login 
+1. Now try to reattach! This should now work!
