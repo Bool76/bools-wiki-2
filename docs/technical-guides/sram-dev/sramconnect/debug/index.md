@@ -88,4 +88,5 @@ Scenario - All of a sudden when I select "Reattach to wpw3.exe" from the Debug m
     1. Open a new tab in Chrome
     1. Go to - http://local.sram.com/
     1. Once that loads you should be fine, you don't even have to login 
+1. If you're working with running a API request from an http file then you also might want to run a successful "Send request" without any breakpoints in the code
 1. Now try to reattach! This should now work!
