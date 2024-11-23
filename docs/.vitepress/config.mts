@@ -822,6 +822,10 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     {
+                      text: "Run from Local Sramconnect",
+                      link: "/technical-guides/sram-dev/rider-support-tools/run-from-local-sramconnect",
+                    },
+                    {
                       text: "Run Test Cases",
                       link: "/technical-guides/sram-dev/rider-support-tools/rider-support-run-tests",
                     },
@@ -882,6 +886,10 @@ export default defineConfig({
                     {
                       text: "Environment",
                       link: "/technical-guides/sram-dev/sramconnect/start-environment/",
+                    },
+                    {
+                      text: "Rider Support Tools",
+                      link: "/technical-guides/sram-dev/sramconnect/sramconnect-rider-support-tools/",
                     },
                   ], // optional, defaults to 0, defines the index of initially opened subgroup
                 },
