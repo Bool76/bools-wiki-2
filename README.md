@@ -1,50 +1,40 @@
 # bools-wiki-2
 
+<br>
 
-[DRAFT]
-
-YOU NEED TO GO OVER THIS ENTIRE DOCUMENT TO MAKE SURE THAT YOU NEED ALL OF THIS OR THAT ITS ACCURATE
-
-
-[DRAFT] ## Product Vision Statement
+## Product Vision Statement
 
 Provide an alternative development environment for Ian's famous HOW TO doc in order to improving access to the document, keep the create rate the same or accelerate it, and learn new technologies
 
-
+<br>
 
 ## Prerequisites
-1. tbd
 
+1. Node JS (version 14.18 >)
+1. npm (which does come with Node)
 
+<br>
 
-[DRAFT] ## Tech Stack
+## Install
 
-1. Vue - Utilize Vue components
-2. JSON
-3. Node.js > 10 and < 17
-4. Yarn (optional)
+1. Download repo / Clone repo
+1. Go to project root directory (e.g. Bools-Wiki-2)
+1. Install Vitepress as a development dependency
 
+```
+npm install --save-dev vitepress
+```
 
-
-[DRAFT] ## Install
-
-1. Download repo
-2. Go to project root directory
-3. RUN:
+1. Install project
 
 ```
 npm install
 ```
 
-[CORRECT] 4. Start env:
+1. Start env:
 
 ```
 npm run docs:dev
 ```
 
-
-
-[DRAFT] ### Local environment
-
-Local Site == http://localhost:8080/  
-Start Env == npm run docs:dev
+> :warning: **Warning:** You might have to run `npm install` first and then `npm install --save-dev vitepress`. I'm not 100% sure of the order
