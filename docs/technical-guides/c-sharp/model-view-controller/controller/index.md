@@ -1,3 +1,0 @@
-# MVC | Controller
-
-Summary - tbd
