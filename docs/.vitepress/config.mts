@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,17 +7,17 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Technical Guides', link: '/technical-guides/' },
-      { text: 'Other', link: '/other/' }
+      { text: "Home", link: "/" },
+      { text: "Technical Guides", link: "/technical-guides/" },
+      { text: "Other", link: "/other/" },
     ],
 
     sidebar: {
       // This sidebar gets displayed when a user
       // is on `guide` directory.
-      '/technical-guides/': [
+      "/technical-guides/": [
         {
-          text: 'Technical Guides',
+          text: "Technical Guides",
           collapsed: false,
           items: [
             {
@@ -43,9 +43,9 @@ export default defineConfig({
                   items: [
                     {
                       text: "Controllers",
-                      link: "/technical-guides/c-sharp/core-mvc/controllers"
-                    }
-                  ]
+                      link: "/technical-guides/c-sharp/core-mvc/controllers",
+                    },
+                  ],
                 },
                 {
                   text: "List Class",
@@ -105,8 +105,8 @@ export default defineConfig({
                     {
                       text: "Move Style Window",
                       link: "/technical-guides/chrome/dev-tools/move-style-window/",
-                    }
-                  ]
+                    },
+                  ],
                 },
                 {
                   text: "Lighthouse",
@@ -114,16 +114,16 @@ export default defineConfig({
                   link: "/technical-guides/chrome/lighthouse/",
                   items: [
                     {
-                      text: 'Clear Cache',
+                      text: "Clear Cache",
                       link: "/technical-guides/chrome/lighthouse/clear-cache/",
-                    }
-                  ]
-                }
+                    },
+                  ],
+                },
               ],
             },
             {
-              text: 'Command Line',
-              link: '/technical-guides/command-line/'
+              text: "Command Line",
+              link: "/technical-guides/command-line/",
             },
             {
               text: "CSS",
@@ -180,9 +180,9 @@ export default defineConfig({
                   items: [
                     {
                       text: "grid-template-columns",
-                      link: "/technical-guides/css/grid/grid-template-columns/"
-                    }
-                  ]
+                      link: "/technical-guides/css/grid/grid-template-columns/",
+                    },
+                  ],
                 },
                 {
                   text: "Limit Text Rows",
@@ -199,8 +199,8 @@ export default defineConfig({
               ],
             },
             {
-              text: 'Elasticsearch',
-              link: '/technical-guides/elasticsearch/'
+              text: "Elasticsearch",
+              link: "/technical-guides/elasticsearch/",
             },
             {
               text: "Frontend Development",
@@ -225,7 +225,7 @@ export default defineConfig({
                 {
                   text: "Bootstrap",
                   link: "/technical-guides/frontend-development/bootstrap",
-                  collapsed: true, 
+                  collapsed: true,
                   items: [
                     {
                       text: "Breakpoints",
@@ -234,8 +234,8 @@ export default defineConfig({
                     {
                       text: "Margins + Padding",
                       link: "/technical-guides/frontend-development/bootstrap/bootstrap-margins-padding",
-                    }
-                  ]
+                    },
+                  ],
                 },
                 {
                   text: "Build Tools",
@@ -279,9 +279,9 @@ export default defineConfig({
                   items: [
                     {
                       text: "nvm",
-                      link: "/technical-guides/frontend-development/node/nvm/"
-                    }
-                  ]
+                      link: "/technical-guides/frontend-development/node/nvm/",
+                    },
+                  ],
                 },
                 {
                   text: "Tailwind",
@@ -505,7 +505,7 @@ export default defineConfig({
                       text: "Team Charter",
                       link: "/technical-guides/pm/pm-templates/templates-team-charter/",
                     },
-                  ]
+                  ],
                 },
               ],
             },
@@ -781,7 +781,7 @@ export default defineConfig({
               ],
             },
             {
-              text: "SRAM Dev", 
+              text: "SRAM Dev",
               link: "/technical-guides/sram-dev/",
               collapsed: true,
               items: [
@@ -832,8 +832,8 @@ export default defineConfig({
                     {
                       text: "Start Environment",
                       link: "/technical-guides/sram-dev/rider-support-tools/rider-support-start-env",
-                    }
-                  ]
+                    },
+                  ],
                 },
                 {
                   text: "slr2",
@@ -917,11 +917,11 @@ export default defineConfig({
                   ],
                 },
                 {
-                  text: 'Time Off',
-                  link: '/technical-guides/sram-dev/sram-time-off'
+                  text: "Time Off",
+                  link: "/technical-guides/sram-dev/sram-time-off",
                 },
               ],
-            }, 
+            },
             {
               text: "Storybook",
               link: "/technical-guides/storybook/",
@@ -975,20 +975,24 @@ export default defineConfig({
               items: [
                 {
                   text: "Screenshot Not Working",
-                  link: "/technical-guides/visual-studio/visual-studio-screenshot"
+                  link: "/technical-guides/visual-studio/visual-studio-screenshot",
                 },
-              ]
-            }, 
+              ],
+            },
             {
               text: "Vitepress",
               link: "/technical-guides/vitepress/",
               collapsed: true,
               items: [
                 {
-                  text: "Vitepress Theming",
-                  link: "/technical-guides/vitepress/vitepress-theming/"
+                  text: "Install Existing Site",
+                  link: "/technical-guides/vitepress/vitepress-install-existing-site/",
                 },
-              ]
+                {
+                  text: "Vitepress Theming",
+                  link: "/technical-guides/vitepress/vitepress-theming/",
+                },
+              ],
             },
             {
               text: "VS Code",
@@ -1048,25 +1052,25 @@ export default defineConfig({
                   items: [
                     {
                       text: "Tutorial 3 Notes",
-                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-3"
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-3",
                     },
                     {
                       text: "Tutorial 4 Notes",
-                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-4"
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-4",
                     },
                     {
                       text: "Tutorial 5 Notes",
-                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-5"
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-5",
                     },
                     {
                       text: "Tutorial 6 Notes",
-                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-6"
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-6",
                     },
                     {
                       text: "Tutorial 7 Notes",
-                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-7"
-                    }
-                  ]
+                      link: "/technical-guides/vue/codevolution/codevolution-tutorial-7",
+                    },
+                  ],
                 },
                 {
                   text: "Custom Props",
@@ -1109,7 +1113,7 @@ export default defineConfig({
                   link: "/technical-guides/vue/vue-file-types/",
                 },
               ],
-            }, 
+            },
             {
               text: "VuePress",
               link: "/technical-guides/vue-press/",
@@ -1120,17 +1124,17 @@ export default defineConfig({
                   link: "/technical-guides/vue-press/vue-press-styling/",
                 },
               ],
-            },   
-          ]
-        }
+            },
+          ],
+        },
       ],
-      '/other/': [
+      "/other/": [
         {
-          text: 'Other',
+          text: "Other",
           items: [
             {
-              text: 'Career',
-              link: '/other/career/',
+              text: "Career",
+              link: "/other/career/",
               collapsed: true,
               items: [
                 {
@@ -1140,12 +1144,12 @@ export default defineConfig({
                   items: [
                     {
                       text: "Project 1",
-                      link:"/other/career/pm-journal/project-1/",
+                      link: "/other/career/pm-journal/project-1/",
                       collapsed: true,
                       items: [
                         {
                           text: "Lessons Learned",
-                          link: "/other/career/pm-journal/project-1/lessons-learned/"
+                          link: "/other/career/pm-journal/project-1/lessons-learned/",
                         },
                         {
                           text: "2024-01-02",
@@ -1179,58 +1183,58 @@ export default defineConfig({
                     },
                     {
                       text: "Project 2",
-                      link:"/other/career/pm-journal/project-2/",
+                      link: "/other/career/pm-journal/project-2/",
                       collapsed: true,
                       items: [
                         {
                           text: "Lessons Learned",
-                          link:"/other/career/pm-journal/project-2/lessons-learned/",
+                          link: "/other/career/pm-journal/project-2/lessons-learned/",
                         },
-                      ]
-                    }
-                  ]
-                },
-              ]
-            },
-            { 
-              text: 'Music', 
-              link: '/other/music/', 
-              collapsed: true,
-              items: [
-                {
-                  text: 'Chord Progressions',
-                  link: '/other/music/chord-progressions/'
-                },
-                {
-                  text: 'Vocal Range',
-                  link: '/other/music/vocal-range/'
-                }
-              ]
-            },
-            {
-              text: 'Project Jewel',
-              link: '/other/project-jewel/',
-              collapsed: true,
-              items: [
-                {
-                  text: '2024',
-                  link: '/other/project-jewel/2024/',
-                  items: [
-                    {
-                      text: '2024 Breakout',
-                      link: '/other/project-jewel/2024/2024-breakout',
-                    }
-                  ]
+                      ],
+                    },
+                  ],
                 },
               ],
             },
-          ]
-        }
-      ]
+            {
+              text: "Music",
+              link: "/other/music/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Chord Progressions",
+                  link: "/other/music/chord-progressions/",
+                },
+                {
+                  text: "Vocal Range",
+                  link: "/other/music/vocal-range/",
+                },
+              ],
+            },
+            {
+              text: "Project Jewel",
+              link: "/other/project-jewel/",
+              collapsed: true,
+              items: [
+                {
+                  text: "2024",
+                  link: "/other/project-jewel/2024/",
+                  items: [
+                    {
+                      text: "2024 Breakout",
+                      link: "/other/project-jewel/2024/2024-breakout",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
+  },
+});
