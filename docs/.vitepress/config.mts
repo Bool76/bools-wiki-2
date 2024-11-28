@@ -986,7 +986,7 @@ export default defineConfig({
               items: [
                 {
                   text: "Install Existing Site",
-                  link: "/technical-guides/vitepress/vitepress-install-existing-site/",
+                  link: "/technical-guides/vitepress/vitepress-install-existing-site",
                 },
                 {
                   text: "Vitepress Theming",
