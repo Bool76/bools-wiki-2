@@ -985,6 +985,10 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
+                  text: "Ignore Build Files",
+                  link: "/technical-guides/vitepress/ignore-build-files",
+                },
+                {
                   text: "Install Existing Site",
                   link: "/technical-guides/vitepress/vitepress-install-existing-site",
                 },
