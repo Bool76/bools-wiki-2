@@ -23,7 +23,8 @@
 | 10-30    | Limited       | Avoiding Teams message. Did something wrong?     | Build confidence. Attack. Write code and don't avoid     | Positive. Wasn't something I did |
 | 10-30    | Limited       | Bound to fail                                    | Write code. Sm goals. "Old Money" song.                  | Positive. Got me started.        |
 | 11-05    | Limited       | Afraid. Won't have the answers.                  | Write down who you are. Breakout. One point at a time.   | Positive. Just take your time.   |
-| 11-07     | Limited       | Challenged. Angry.                               | Read once. Break. Read in pieces. Take notes.            |                                  |
+| 11-07    | Limited       | Challenged. Angry.                               | Read once. Break. Read in pieces. Take notes.            |                                  |
+| 12-02    | Limited       | Cant start reading                               | Short focus times. Try to write short notes              | This did work really well!       |
 
 <br>
 
