@@ -822,6 +822,10 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     {
+                      text: "Deploy",
+                      link: "/technical-guides/sram-dev/rider-support-tools/rider-support-deploy",
+                    },
+                    {
                       text: "Run from Local Sramconnect",
                       link: "/technical-guides/sram-dev/rider-support-tools/run-from-local-sramconnect",
                     },
