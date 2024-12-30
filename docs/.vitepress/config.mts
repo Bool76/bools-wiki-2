@@ -408,7 +408,7 @@ export default defineConfig({
                   link: "/technical-guides/javascript/basics/",
                 },
                 {
-                  text: "Environment",
+                  text: "Create Environment",
                   link: "/technical-guides/javascript/environment/",
                 },
                 {
