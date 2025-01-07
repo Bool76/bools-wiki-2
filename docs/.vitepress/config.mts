@@ -242,6 +242,10 @@ export default defineConfig({
                   link: "/technical-guides/frontend-development/build-tools/",
                 },
                 {
+                  text: "Flexbox",
+                  link: "/technical-guides/frontend-development/flexbox",
+                },
+                {
                   text: "Container Queries",
                   link: "/technical-guides/frontend-development/container-queries/",
                 },
@@ -788,6 +792,10 @@ export default defineConfig({
                 {
                   text: "Azure | Deployment",
                   link: "/technical-guides/sram-dev/azure-deployment/",
+                },
+                {
+                  text: "Credit Card",
+                  link: "/technical-guides/sram-dev/credit-card-expenses",
                 },
                 {
                   text: "Epi",
