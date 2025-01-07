@@ -8,9 +8,15 @@ Overview - When you have items that don't take up all of the main flex container
 Flex items
 
 
-### Flex Grow Settings
+## Flex Grow Settings
 
-#### flex-grow: 0
+
+> :warning: **Warning:** If `justify-content:space-around;` is in the main Flexbox container style it will throw everything else off!
+
+
+<br><br>
+
+### flex-grow: 0
 With a flex-grow of 0, you can see that all of the items don't take up the entire space of the flex container. Use flex-grow to figure out how to use the space with the flex items 
 <br/>
 
@@ -18,9 +24,9 @@ _Example:_
 
 ![Image from images folder](/css/flexbox/flex-grow/css_flexbox_flex-grow_grow-zero.png)   
 
-<br/>
+<br/><br>
 
-#### flex-grow: 1  
+### flex-grow: 1  
 With a setting of 1, all of the flex items will take up an equal space 
 <br/>
 
@@ -28,9 +34,9 @@ _Example:_
 
 ![Image from images folder](/css/flexbox/flex-grow/css_flexbox_flex-grow_grow-one.png)  
 
-<br/>
+<br/><br>
 
-#### flex-grow: _mixed_  
+### flex-grow: _mixed_  
 You can set a custom `flex-grow` for each element and they will respond appropriately. 
 ```
 .first-item {
