@@ -892,6 +892,10 @@ export default defineConfig({
                       link: "/technical-guides/sram-dev/sramconnect/compile-css/",
                     },
                     {
+                      text: "Create CMS Block",
+                      link: "/technical-guides/sram-dev/sramconnect/create-cs-block",
+                    },
+                    {
                       text: "Debug",
                       link: "/technical-guides/sram-dev/sramconnect/debug/",
                     },
