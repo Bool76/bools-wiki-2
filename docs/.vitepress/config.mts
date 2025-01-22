@@ -1036,6 +1036,10 @@ export default defineConfig({
                   link: "/technical-guides/vscode/eslint/",
                 },
                 {
+                  text: "Formatting",
+                  link: "/technical-guides/vscode/vscode-formatting",
+                },
+                {
                   text: "Merge Conflicts",
                   link: "/technical-guides/vscode/merge-conflicts/",
                 },
