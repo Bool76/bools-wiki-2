@@ -147,6 +147,10 @@ export default defineConfig({
                   link: "/technical-guides/css/container-queries/",
                 },
                 {
+                  text: "Create Circle",
+                  link: "/technical-guides/css/css-create-circle",
+                },
+                {
                   text: "Flexbox",
                   link: "/technical-guides/css/flexbox/",
                   collapsed: true,
