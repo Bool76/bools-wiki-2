@@ -764,6 +764,17 @@ export default defineConfig({
                   ],
                 },
                 {
+                  text: "Terms and Definitions",
+                  link: "/technical-guides/pmp/pmp-terms/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Lead Time",
+                      link: "/technical-guides/pmp/pmp-terms/lead-time",
+                    },
+                  ]
+                },
+                {
                   text: "Test Question Strategies",
                   link: "/technical-guides/pmp/test-question-strategies/",
                 },
@@ -1009,6 +1020,10 @@ export default defineConfig({
                   link: "/technical-guides/vitepress/ignore-build-files",
                 },
                 {
+                  text: "Insert Image",
+                  link: "/technical-guides/vitepress/vitepress-insert-image",
+                },
+                {
                   text: "Install Existing Site",
                   link: "/technical-guides/vitepress/vitepress-install-existing-site",
                 },
@@ -1251,6 +1266,16 @@ export default defineConfig({
                     {
                       text: "2024 Breakout",
                       link: "/other/project-jewel/2024/2024-breakout",
+                    },
+                  ],
+                },
+                {
+                  text: "2025",
+                  link: "/other/project-jewel/2025/",
+                  items: [
+                    {
+                      text: "Machine Mode",
+                      link: "/other/project-jewel/2025/2025-machine",
                     },
                   ],
                 },
