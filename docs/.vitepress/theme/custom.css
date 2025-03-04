@@ -7,9 +7,14 @@ body, p {
 }
 
  
-.VPDoc.has-aside :deep(.content-container)
-     {
-        max-width: 900px !important;
+/* Hiding the "aside" column on right */
+.VPDoc .aside {
+    display: none !important;
+}
+
+/* Main center display area | Expanding width */
+.VPDoc.has-aside .content-container {
+    max-width: 1500px !important;
 }
 
 
