@@ -42,7 +42,7 @@ _Example_
 bikes.value = results
 ```
 
-<br><br>
+<br>
 
 ### "Return" and it's relationship w/ Function
 
@@ -63,3 +63,10 @@ If you had an object called "Car" then some of it's properties could be:
 - Color
 
 An object's properties can also be called **Keys**
+
+<br><br>
+
+## DOM Tree
+
+Please see the section:
+[DOM Tree](/technical-guides/javascript/dom-tree/)
