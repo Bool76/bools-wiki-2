@@ -83,5 +83,5 @@ Yes I have the possibility of getting distracted by the music. But the point is 
 <br><br>
 
 #### 02-23
+Just a note to say that this was successful. Also that when I got down to it, the work I was trying to do maybe took me 20-30 mins. So like no time at all. So have faith that what you're trying to do is helping. I almost had that feeling too when I started outlining notes for this. It was like "You know what to do and you know you can switch context and be successful."
 
-Didn't stick with INF but I am more into the work
