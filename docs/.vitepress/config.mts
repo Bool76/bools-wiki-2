@@ -420,6 +420,10 @@ export default defineConfig({
                   link: "/technical-guides/javascript/environment/",
                 },
                 {
+                  text: "DOM",
+                  link: "/technical-guides/javascript/dom/",
+                },
+                {
                   text: "For Loops",
                   link: "/technical-guides/javascript/javascript-for-loop",
                 },
@@ -428,8 +432,15 @@ export default defineConfig({
                   link: "/technical-guides/javascript/functions/",
                 },
                 {
-                  text: "Javascript JQuery Book",
+                  text: "Javascript Book",
                   link: "/technical-guides/javascript/javascript-jquery/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Ch 5 | DOM",
+                      link: "/technical-guides/javascript/javascript-jquery/javascript-jquery-ch5",
+                    },
+                  ],
                 },
                 {
                   text: "Operators",
