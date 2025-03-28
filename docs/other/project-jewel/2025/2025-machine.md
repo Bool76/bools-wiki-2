@@ -2,17 +2,18 @@
 
 <br>
 
-| Instance | Internal Navigation | Current Navigation    | Current Fuel                                                   | Internal Navigation Fuel (new ideas)                                  |
-| -------- | ------------------- | --------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------- |
-| 02-21    | Work                | Incognito             | Pictures. Videos.                                              | Speed. Talking to sitimulate thinking.                                |
-| 02-21    | Work                | Work - But struggling | Talking. Trying to break problem down.                         | Be patient. Keep breaking down. Different music? Quick experiments.   |
-| 02-23 1  | Work                | Youtube               | Videos. Movie opinions. Stress. Negativity. Lack of excitement | Be curious. Write sm frequent tests. Christopher Cross. Get excited.  |
-| 02-23 2  | Work                | Work                  | Quickness. Keep challenging on what nex step is                | Keep being quick and coming up with new tests                         |
-| 02-23 3  | Work                | Work                  | Feeling negative. Frustrated.                                  | Change attitude. Get happy. Christopher Cross. Play it while working. |
-| 02-24    | Work                | Youtube               | Videos. Politics.                                              | Positive turn. Jim Brickman. List of what I've done well.             |
-| 02-28 1  | Coding              | Joe Rogan             | Videos. Topic: How to create                                   | One mind on coding. Talk out loud. Small steps. Quick movements.      |
-| 02-28 2  | Coding              | Joe Rogan             | Videos. Politics. Elon Musk. Interviews.                       | Be excited. Small steps. Quick tests. Music: Max Richter - Dream 1    |
-| 03-03    | Work documentation  | Joe Rogan             | Waiting to POVs that match mine                                | Journal. Talk out loud. Give yourself a break. You have time.         |
+| Instance | Internal Navigation    | Current Navigation    | Current Fuel                                                   | Internal Navigation Fuel (new ideas)                                  |
+| -------- | ---------------------- | --------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 02-21    | Work                   | Incognito             | Pictures. Videos.                                              | Speed. Talking to sitimulate thinking.                                |
+| 02-21    | Work                   | Work - But struggling | Talking. Trying to break problem down.                         | Be patient. Keep breaking down. Different music? Quick experiments.   |
+| 02-23 1  | Work                   | Youtube               | Videos. Movie opinions. Stress. Negativity. Lack of excitement | Be curious. Write sm frequent tests. Christopher Cross. Get excited.  |
+| 02-23 2  | Work                   | Work                  | Quickness. Keep challenging on what nex step is                | Keep being quick and coming up with new tests                         |
+| 02-23 3  | Work                   | Work                  | Feeling negative. Frustrated.                                  | Change attitude. Get happy. Christopher Cross. Play it while working. |
+| 02-24    | Work                   | Youtube               | Videos. Politics.                                              | Positive turn. Jim Brickman. List of what I've done well.             |
+| 02-28 1  | Coding                 | Joe Rogan             | Videos. Topic: How to create                                   | One mind on coding. Talk out loud. Small steps. Quick movements.      |
+| 02-28 2  | Coding                 | Joe Rogan             | Videos. Politics. Elon Musk. Interviews.                       | Be excited. Small steps. Quick tests. Music: Max Richter - Dream 1    |
+| 03-03    | Work documentation     | Joe Rogan             | Waiting to POVs that match mine                                | Journal. Talk out loud. Give yourself a break. You have time.         |
+| 03-07    | Work - Rewrite stories | Joe Rogan             | Adam Duritz video on creativity                                | Journal. Writing / Typing. Get excited about work accomplishments     |
 
 <br><br>
 
