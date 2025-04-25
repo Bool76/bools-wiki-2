@@ -15,10 +15,13 @@
 | 03-03    | Work documentation  | Joe Rogan             | Waiting to POVs that match mine                                | Journal. Talk out loud. Give yourself a break. You have time.         |
 | 03-19    | Work to do list     | Text messages         | Phone. Youtube - Politics + Cars                               | Music. Journaling. Small bits of work. Typing.                        |
 | 03-24    | CEs for PMP         | Everything but        | Stressed. Why? Feel behind. Scared I can't think quickly.      | Type more! It can cause conversation in your head.                    |
+| 04-25    | Work on work!       | Glenn Beck            | Validating feelings or thoughts about politics                 | Quickness. Curiousity.                                                |
 
 <br><br>
 
 ### Breakdown
+
+<br>
 
 #### 03-24
 
@@ -83,5 +86,5 @@ Yes I have the possibility of getting distracted by the music. But the point is 
 <br><br>
 
 #### 02-23
-Just a note to say that this was successful. Also that when I got down to it, the work I was trying to do maybe took me 20-30 mins. So like no time at all. So have faith that what you're trying to do is helping. I almost had that feeling too when I started outlining notes for this. It was like "You know what to do and you know you can switch context and be successful."
 
+Just a note to say that this was successful. Also that when I got down to it, the work I was trying to do maybe took me 20-30 mins. So like no time at all. So have faith that what you're trying to do is helping. I almost had that feeling too when I started outlining notes for this. It was like "You know what to do and you know you can switch context and be successful."
