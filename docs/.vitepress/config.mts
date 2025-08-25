@@ -1246,6 +1246,17 @@ export default defineConfig({
                         },
                       ],
                     },
+                    {
+                      text: "Project 3",
+                      link: "/other/career/pm-journal/project-3/",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Lessons Learned",
+                          link: "/other/career/pm-journal/project-3/lessons-learned",
+                        },
+                      ],
+                    },
                   ],
                 },
               ],
