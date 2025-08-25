@@ -2,7 +2,7 @@
 
 <br>
 
-| Instance | Internal Navigation | Current Navigation    | Current Fuel                                                   | Internal Navigation Fuel (new ideas)                                  |
+| Instance | Internal Navigation | Current Navigation    | Current Fuel                                                   | New Navigation Fuel                                                   |
 | -------- | ------------------- | --------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------- |
 | 02-21    | Work                | Incognito             | Pictures. Videos.                                              | Speed. Talking to sitimulate thinking.                                |
 | 02-21    | Work                | Work - But struggling | Talking. Trying to break problem down.                         | Be patient. Keep breaking down. Different music? Quick experiments.   |
@@ -16,12 +16,31 @@
 | 03-19    | Work to do list     | Text messages         | Phone. Youtube - Politics + Cars                               | Music. Journaling. Small bits of work. Typing.                        |
 | 03-24    | CEs for PMP         | Everything but        | Stressed. Why? Feel behind. Scared I can't think quickly.      | Type more! It can cause conversation in your head.                    |
 | 04-25    | Work on work!       | Glenn Beck            | Validating feelings or thoughts about politics                 | Quickness. Curiousity.                                                |
+| 05-08    | Work / Coding       | Youtube               | Movies. Creating. Being a creator.                             | Talking out loud. Talking next steps. Peaceful music.                 |
+|          |                     |                       |                                                                |                                                                       |
 
 <br><br>
 
 ### Breakdown
 
 <br>
+
+#### 05-08
+
+Still the same things. Don't want to work. Have to / should put my video rules back in place. No videos past like 9:00am. I wish I could still dive into why I need to be distracted. What does it
+give me?
+
+- Topic that I'm interested in
+- It's not hard
+- I'm not failing when I'm watching videos. Even though you could argue that you are failing.
+- Escape
+- Pleasure
+- Pleasure in hearing something I agree with
+- Pleasure in a topic that's easy to listen to
+
+"Easy" is and has always been very much a theme. I don't think BTW you're unique in that.
+
+<br><br>
 
 #### 03-24
 
