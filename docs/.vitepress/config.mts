@@ -21,6 +21,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              text: "Auth + Sessons",
+              link: "/technical-guides/auth-n-sessions/",
+            },
+            {
               text: "C#",
               collapsed: true,
               link: "/technical-guides/c-sharp/",
