@@ -23,6 +23,12 @@ export default defineConfig({
             {
               text: "Auth + Sessons",
               link: "/technical-guides/auth-n-sessions/",
+              items: [
+                {
+                  text: "Nuxt Auth + Sessions",
+                  link: "/technical-guides/auth-n-sessions/nuxt-auth-n-sessions",
+                },
+              ]
             },
             {
               text: "C#",
