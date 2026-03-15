@@ -36,7 +36,7 @@ import {test, expect} from @playwright/test;
 #### First Written Test Case
 
 ```
-test('title of test', ()=>{
+test('title of test', ({page})=>{
     //Step 1
 
     //Step 2
@@ -47,7 +47,7 @@ test('title of test', ()=>{
 ```
 1. `test` == Using the `test` function
 1. `'title of test'` == First parameter. Title given to the test. Can be whatever you want.
-1. == Second parameter is a custom function or arrow function 
+1. `({page})=>` == Second parameter is a custom function or arrow function 
 
 
 
@@ -60,4 +60,8 @@ First parameter is the title of the test
 
 ### Terms
 
-Fixture == Global Variable that could be predefined (Examples: page, browser, etc)
+<u>Fixture</u> == Global Variable that could be predefined
+
+  Examples: 
+  1. Page == Browser page / tab
+  1. Browser == Enture browser obect
