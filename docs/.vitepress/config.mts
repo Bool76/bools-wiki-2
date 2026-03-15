@@ -498,6 +498,22 @@ export default defineConfig({
               ],
             },
             {
+              text: "Nuxt",
+              link: "/technical-guides/nuxt/",
+              collapsed: true,
+            },
+            {
+              text: "Playwright",
+              link: "/technical-guides/playwright/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Playwright Script Basics",
+                  link: "/technical-guides/playwright/playwright-script-basics",
+                }
+              ]
+            },
+            {
               text: "Project Management",
               link: "/technical-guides/pm/",
               collapsed: true,
