@@ -37,9 +37,12 @@ import {test, expect} from @playwright/test;
 
 ```
 test('title of test', ({page})=>{
-    //Step 1
 
-    //Step 2
+    // Launch page with url
+    page.goto("http://www.google.com"); 
+
+    // Verify page has the title "Test Title"
+    expect(page).toHaveTitle("Test Title");
 
     //Step 3
 })
@@ -47,7 +50,10 @@ test('title of test', ({page})=>{
 ```
 1. `test` == Using the `test` function
 1. `'title of test'` == First parameter. Title given to the test. Can be whatever you want.
-1. `({page})=>` == Second parameter is a custom function or arrow function 
+1. `({page})=>` == Second parameter is a custom function or arrow function  
+     If it was just an arrow function with nothing passed in it then it would look like `()=>`
+1. `page` == Is a reference to the global "page" variable (also called fixture instead of a variable) so that you can use it inside of the function.  
+    NOTE: Must have curly brackets  
 
 
 

@@ -510,7 +510,17 @@ export default defineConfig({
                 {
                   text: "Playwright Script Basics",
                   link: "/technical-guides/playwright/playwright-script-basics",
-                }
+                }, 
+                {
+                  text: "Playwright Examples",
+                  link: "/technical-guides/playwright/playwright-examples/",
+                  items: [
+                    {
+                      text: "New Browser Tab",
+                      link: "/technical-guides/playwright/playwright-examples/playwright-example-new-tab"
+                    }
+                  ]
+                },
               ]
             },
             {
