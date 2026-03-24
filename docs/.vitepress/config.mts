@@ -21,6 +21,16 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              text: "Auth + Sessons",
+              link: "/technical-guides/auth-n-sessions/",
+              items: [
+                {
+                  text: "Nuxt Auth + Sessions",
+                  link: "/technical-guides/auth-n-sessions/nuxt-auth-n-sessions",
+                },
+              ]
+            },
+            {
               text: "C#",
               collapsed: true,
               link: "/technical-guides/c-sharp/",
@@ -430,6 +440,13 @@ export default defineConfig({
                 {
                   text: "Functions",
                   link: "/technical-guides/javascript/functions/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Promise.all",
+                      link: "/technical-guides/javascript/functions/promise-all",
+                    }
+                  ]
                 },
                 {
                   text: "Javascript Book",
@@ -486,6 +503,32 @@ export default defineConfig({
                   link: "/technical-guides/markdown/warning-and-notes/",
                 },
               ],
+            },
+            {
+              text: "Nuxt",
+              link: "/technical-guides/nuxt/",
+              collapsed: true,
+            },
+            {
+              text: "Playwright",
+              link: "/technical-guides/playwright/",
+              collapsed: true,
+              items: [
+                {
+                  text: "Playwright Script Basics",
+                  link: "/technical-guides/playwright/playwright-script-basics",
+                }, 
+                {
+                  text: "Playwright Examples",
+                  link: "/technical-guides/playwright/playwright-examples/",
+                  items: [
+                    {
+                      text: "New Browser Tab",
+                      link: "/technical-guides/playwright/playwright-examples/playwright-example-new-tab"
+                    }
+                  ]
+                },
+              ]
             },
             {
               text: "Project Management",
