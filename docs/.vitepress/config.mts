@@ -440,6 +440,13 @@ export default defineConfig({
                 {
                   text: "Functions",
                   link: "/technical-guides/javascript/functions/",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "Promise.all",
+                      link: "/technical-guides/javascript/functions/promise-all",
+                    }
+                  ]
                 },
                 {
                   text: "Javascript Book",

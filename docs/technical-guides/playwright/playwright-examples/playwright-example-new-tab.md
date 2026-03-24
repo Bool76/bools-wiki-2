@@ -18,9 +18,44 @@ Write a test in Typescript for the SRAM Chatbot project where you'll test that w
 
 
 
-### Option 1
+## Research
 
 Summary - I googled "typescript playwright test link opening to new tab" to get an idea of what might be the solution. The code snippet below was something that came up.
+
+<br>
+
+### Research | Option 1
+
+<br>
+
+#### Option 1 Code (no steps)
+
+```
+import { test, expect } from '@playwright/test';
+
+test('verify link opens in new tab', async ({ page, context }) => {
+  await page.goto('https://example.com');
+
+  const pagePromise = context.waitForEvent('page');
+  
+  await page.getByRole('link', { name: 'Open New Tab' }).click();
+
+  const newPage = await pagePromise;
+
+  await newPage.waitForLoadState();
+  
+  await expect(newPage).toHaveURL(/.*new-page-url/);
+  
+  await expect(newPage.locator('h1')).toContainText('Welcome to the new tab');
+
+  await newPage.close();
+});
+
+```
+<br>
+
+#### Option 1 Code (w/ steps)
+
 
 ```
 import { test, expect } from '@playwright/test';
@@ -79,10 +114,40 @@ Step 6 == Close new tab
 <br><br><br>
 
 
-### Option 2
+### Research  | Option 2
+
+<br>
+
+#### Option 2 Code (no steps)
+
+<br>
 
 ```
+import { test, expect } from '@playwright/test'
 
+test('clicking link opens new tab', async ({ page }) => {
+  
+  await page.goto('https://example.com')
+
+  const [newPage] = await Promise.all([
+
+    page.waitForEvent('popup'),
+
+    page.getByRole('link', { name: 'Open Docs' }).click()
+  ])
+
+  await newPage.waitForLoadState()
+
+  await expect(newPage).toHaveURL(/docs/)
+})
+```
+
+
+<br>
+
+#### Option 2 Code (w/ Steps)
+
+```
 // Step 1
 import { test, expect } from '@playwright/test'
 
@@ -130,3 +195,126 @@ Step 5 == For the `newPage` variable use the `waitForLoadState()` function to wa
 
 Step 6 == Verify that the `newPage` has a specific URL 
 
+
+<br><br>
+
+## Testing Practice
+
+Summary - The below represents you trying some different options for testing the "new tab" test script'; again for Playwright and written in Typescript 
+
+<br> 
+
+### Testing Option 1 | Failed!
+
+<br>
+
+#### Testing Option 1 (no steps)
+
+```
+const link = page.getByRole('link', { name: 'Open Google' });
+
+const [newPage] = await Promise.all([
+    expect(await link.isVisible()).toBe(true),
+    await link.click(),
+    page.waitForEvent('popup'),
+    expect(page.url).toBe('https://www.google.com'),
+]);
+```
+
+<br>
+
+#### Testing Option 1 (w/ steps)
+
+```
+// Step 1
+const link = page.getByRole('link', { name: 'Open Google' });
+
+// Step 2
+const [newPage] = await Promise.all([
+
+    // Step 3
+    expect(await link.isVisible()).toBe(true),
+
+    // Step 4
+    await link.click(),
+
+    // Step 5
+    page.waitForEvent('popup'),
+
+    // Step 6
+    expect(page.url).toBe('https://www.google.com'),
+]);
+
+```
+##### Breakdown
+
+Step 1 == Find the link on the page with the label "Open Google" and set it to a variable  
+
+Step 2 == Create a new array (variable) that's set to the name 'newPage' that's a `Promise.all()` type.  
+'newPage' is a custom name and thus could be anything you want.  
+`Promise.all()` is a Javascript method that allows for multiple operations to run and then wait for them to finish. If one fails then they all fail.
+
+Step 3 == Wait for the variable called `link`, which is looking for a hyperlink, to be true
+
+Step 4 == Click the `link` hyperlink
+
+Step 5 == From the `link` that was clicked, wait for the new window to open (popup)
+
+<br><br>
+
+##### Outcome / Why it failed
+
+Though this all seems well thought out, I was having an error where "newPage" still needed to be called or "activated" as I would say. So I created this array w/ the Promise.all type, but then nothing was calling it. I tried writing something to call the array but all of that kept failing. So I decided to take all of the promises / instructions out of the Promise.All and went forward with Option 2
+
+<br><br><br>
+
+### Testing Option 2 | Worked!
+
+<br>
+
+#### Testing Option 2 (no steps)
+
+```
+const link = page.getByRole('link', { name: 'Open Google' });
+expect(await link.isVisible()).toBe(true);
+await link.click();
+page.waitForEvent('popup');
+```
+<br>
+
+#### Active Option 2 w/ Steps
+```
+// Step 1
+const link = page.getByRole('link', { name: 'Open Google' });
+
+// Step 2
+expect(await link.isVisible()).toBe(true);
+
+// Step 3
+await link.click();
+
+// Step 4
+page.waitForEvent('popup');
+```
+##### Breakdown
+
+Step 1 == Find the link on the page with the label "Open Google" and set it to a variable named "link"  
+
+Step 2 == Using the `expect()` function and `await`, wait until the "link" variable is true  
+
+Step 3 == When it is then click the "link"  
+
+Step 4 == Wait for the page event of `popup` occurs which is the new tab from the link
+
+
+<br><br>
+
+#### What hasn't worked yet
+
+```
+expect(page.url).toBe('https://www.google.com');
+```
+
+##### Breakdown
+
+I wanted to also test if the new tab (or popup) went to the correct URL but I just didn't get this working right
