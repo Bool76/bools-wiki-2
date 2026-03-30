@@ -965,6 +965,10 @@ export default defineConfig({
                       link: "/technical-guides/sram-dev/sramconnect/create-cs-block",
                     },
                     {
+                      text: "Create Custom Field",
+                      link: "/technical-guides/sram-dev/sramconnect/create-custom-field",
+                    },
+                    {
                       text: "Debug",
                       link: "/technical-guides/sram-dev/sramconnect/debug/",
                     },

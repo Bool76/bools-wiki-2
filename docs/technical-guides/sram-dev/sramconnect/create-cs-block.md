@@ -1,4 +1,4 @@
-# Create CMS Block
+# SRAM Connect | Create CMS Block
 
 Overview - Here are some of the basic steps of how to create a CMS block in EPI
 
