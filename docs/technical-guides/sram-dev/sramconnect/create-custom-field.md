@@ -32,7 +32,7 @@ Overview - Create a custom font color field for the tagline field for the T4 Pag
     1. Add `ISupportsCustomCssProperties` to public class list 
     1. Create public Dictionary + associate new field to new CSS variable
 1. _product-group-story.scss -- Set class to new CSS variable
-1. ProductGroupStoryPageViewModelcs -- Set CurrentPage to a variable `currentPage`
+1. ProductGroupStoryPageViewModelcs -- Set currentPage to a variable `CurrentPage`
 1. ProductGroupStoryPage/index.cshtml -- Add `CustomCss`call to targeted html tag
 
 <br>
@@ -46,6 +46,9 @@ Overview - Create a custom font color field for the tagline field for the T4 Pag
     ```
     --product-group-tagline-color: var(--color-white);
     ```
+ 
+ <br>
+ 
  1. ProductGroupStoryPage.cs | Create new field
     1. Inside of the `public class` enter the code for the new field:
         ```
@@ -85,10 +88,10 @@ Overview - Create a custom font color field for the tagline field for the T4 Pag
     
     <br>
 
-1. ProductGroupStoryPageViewModel.cs | Create a definition for CurrentPage 
-    Overview - We need to create a defintion for CurrentPage which we'll be using / referencing in the ProductGroupStoryPage/index file
+1. ProductGroupStoryPageViewModel.cs | Create a variable for currentPage  
+    Overview - We need to create a "variable" for currentPage which we'll be using / referencing in the ProductGroupStoryPage/index file
 
-    In the `ProductGroupStoryPageViewModel` function set CurrentPage to a new currentPage variable (I'm calling it a variable though it could be wrong)
+    In the `ProductGroupStoryPageViewModel` function set currentPage to a new CurrentPage variable (I'm calling it a variable though it could be wrong)
     ```
     public ProductGroupStoryPageViewModel(ProductGroupStoryPage currentPage, SiteSection section, SiteSubSection subSection) : base(currentPage, section, subSection) { 
             CurrentPage = currentPage;
@@ -108,9 +111,7 @@ Overview - Create a custom font color field for the tagline field for the T4 Pag
     1. First off this is tricky shit and drove me nuts. Cause I wasn't finding the right way to call this. 
     1. When I first used `Model.CurrentPage`, `CurrentPage` wasn't defined and it needed to be defined in the file ProductGroupStoryPageViewModel. 
     
-    the In this you use `Model.CurrentPage` because in the cshtml file, at the top of the file it's calling model using `@model ProductGroupStoryPageViewModel`
-    1. `model` as that 
-    1. `CurrentPage` is used in the called but it's NOT specifically defined in the 
+    It needed to be defined in ProductGroupStoryPageViewModel, because in the cshtml file, at the top of the file it's calling the model using `@model ProductGroupStoryPageViewModel`
 
 
 
@@ -130,3 +131,15 @@ public Dictionary<string, string> CssProperties
                ["--product-group-tagline-color"] = TaglineFontColor
            };
 ```
+
+<br>
+
+2. In the cshtml file, when you try to use / call the custom field value in a html tag, it errors because you don't have a defintion for `CurrentPage`  
+
+    FIX:
+    1. At the top of the cshtml page find what model file is being called  
+    Example: 
+    ```
+    @model ProductGroupStoryPageViewModel
+    ```
+    2. In the ViewModel page create a defintion for `CurrentPage` 
