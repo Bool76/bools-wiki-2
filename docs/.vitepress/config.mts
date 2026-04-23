@@ -508,6 +508,12 @@ export default defineConfig({
               text: "Nuxt",
               link: "/technical-guides/nuxt/",
               collapsed: true,
+              items: [
+                {
+                  text: "Use Sanity Field",
+                  link: "/technical-guides/nuxt/nuxt-use-sanity-field",
+                }
+              ]
             },
             {
               text: "Playwright",
@@ -1184,10 +1190,6 @@ export default defineConfig({
                 {
                   text: "Directives",
                   link: "/technical-guides/vue/directives/",
-                },
-                {
-                  text: "Nuxt",
-                  link: "/technical-guides/vue/nuxt/",
                 },
                 {
                   text: "Ref() + Reactive()",
