@@ -8,7 +8,7 @@ Summary - I have just started my work in Nuxt so this isn't going to be organize
 
 <br>
 
-### Expose Props or Props Values
+### Expose Props or Prop Values
 
 Where: On Vue files  
 How: Use curly brackets and the keyword `props`  
