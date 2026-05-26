@@ -896,6 +896,10 @@ export default defineConfig({
                   ],
                 },
                 {
+                  text: "Next Gen Manuals",
+                  link: "/technical-guides/sram-dev/next-gen-manuals",
+                },
+                {
                   text: "IT Installs + Upgrades",
                   link: "/technical-guides/sram-dev/it-installs-upgrades",
                 },
