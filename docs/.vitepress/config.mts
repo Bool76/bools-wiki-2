@@ -860,6 +860,21 @@ export default defineConfig({
               ],
             },
             {
+              text: "SRAM",
+              link: "/technical-guides/sram/",
+              collapsed: true,
+              items: [
+                                {
+                  text: "Credit Card",
+                  link: "/technical-guides/sram/credit-card-expenses",
+                },
+                {
+                  text: "Time Off",
+                  link: "/technical-guides/sram/sram-time-off",
+                },
+              ],
+            },
+            {
               text: "SRAM Dev",
               link: "/technical-guides/sram-dev/",
               collapsed: true,
@@ -867,10 +882,6 @@ export default defineConfig({
                 {
                   text: "Azure | Deployment",
                   link: "/technical-guides/sram-dev/azure-deployment/",
-                },
-                {
-                  text: "Credit Card",
-                  link: "/technical-guides/sram-dev/credit-card-expenses",
                 },
                 {
                   text: "Epi",
@@ -1016,8 +1027,8 @@ export default defineConfig({
                   ],
                 },
                 {
-                  text: "Time Off",
-                  link: "/technical-guides/sram-dev/sram-time-off",
+                  text: "Velocio",
+                  link: "/technical-guides/sram-dev/velocio",
                 },
               ],
             },
