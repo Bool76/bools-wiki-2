@@ -860,6 +860,21 @@ export default defineConfig({
               ],
             },
             {
+              text: "SRAM",
+              link: "/technical-guides/sram/",
+              collapsed: true,
+              items: [
+                                {
+                  text: "Credit Card",
+                  link: "/technical-guides/sram/credit-card-expenses",
+                },
+                {
+                  text: "Time Off",
+                  link: "/technical-guides/sram/sram-time-off",
+                },
+              ],
+            },
+            {
               text: "SRAM Dev",
               link: "/technical-guides/sram-dev/",
               collapsed: true,
@@ -867,10 +882,6 @@ export default defineConfig({
                 {
                   text: "Azure | Deployment",
                   link: "/technical-guides/sram-dev/azure-deployment/",
-                },
-                {
-                  text: "Credit Card",
-                  link: "/technical-guides/sram-dev/credit-card-expenses",
                 },
                 {
                   text: "Epi",
@@ -894,6 +905,10 @@ export default defineConfig({
                       link: "/technical-guides/sram-dev/epi/epi-template-list",
                     },
                   ],
+                },
+                {
+                  text: "Next Gen Manuals",
+                  link: "/technical-guides/sram-dev/next-gen-manuals",
                 },
                 {
                   text: "IT Installs + Upgrades",
@@ -981,6 +996,17 @@ export default defineConfig({
                     {
                       text: "Environment",
                       link: "/technical-guides/sram-dev/sramconnect/start-environment/",
+                      items: [
+                        
+                        {
+                          text: "Start Environment",
+                          link: "/technical-guides/sram-dev/sramconnect/start-environment/sramconnect-start-env-new",
+                        },
+                        {
+                          text: "Start Environment (old)",
+                          link: "/technical-guides/sram-dev/sramconnect/start-environment/sramconnect-start-env-old",
+                        },
+                      ]
                     },
                     {
                       text: "Rider Support Tools",
@@ -1012,8 +1038,8 @@ export default defineConfig({
                   ],
                 },
                 {
-                  text: "Time Off",
-                  link: "/technical-guides/sram-dev/sram-time-off",
+                  text: "Velocio",
+                  link: "/technical-guides/sram-dev/velocio",
                 },
               ],
             },
