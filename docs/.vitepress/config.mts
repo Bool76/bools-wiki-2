@@ -996,6 +996,17 @@ export default defineConfig({
                     {
                       text: "Environment",
                       link: "/technical-guides/sram-dev/sramconnect/start-environment/",
+                      items: [
+                        
+                        {
+                          text: "Start Environment",
+                          link: "/technical-guides/sram-dev/sramconnect/start-environment/sramconnect-start-env-new",
+                        },
+                        {
+                          text: "Start Environment (old)",
+                          link: "/technical-guides/sram-dev/sramconnect/start-environment/sramconnect-start-env-old",
+                        },
+                      ]
                     },
                     {
                       text: "Rider Support Tools",
