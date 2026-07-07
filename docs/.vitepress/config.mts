@@ -884,6 +884,16 @@ export default defineConfig({
                   link: "/technical-guides/sram-dev/azure-deployment/",
                 },
                 {
+                  text: "Chatbot",
+                  link: "/technical-guides/sram-dev/chatbot/",
+                  items: [
+                    {
+                      text: "Submit Button Process",
+                      link: "/technical-guides/sram-dev/chatbot/chatbot-submit-btn-process/", 
+                    }
+                  ]
+                },
+                {
                   text: "Epi",
                   link: "/technical-guides/sram-dev/epi/",
                   collapsed: true,
