@@ -499,6 +499,10 @@ export default defineConfig({
                   link: "/technical-guides/markdown/insert-image/",
                 },
                 {
+                  text: "VS Code Shortcuts",
+                  link: "/technical-guides/markdown/vscode-shortcuts.md",
+                },
+                {
                   text: "Warning + Notes Message",
                   link: "/technical-guides/markdown/warning-and-notes/",
                 },
@@ -1050,6 +1054,12 @@ export default defineConfig({
                 {
                   text: "Velocio",
                   link: "/technical-guides/sram-dev/velocio",
+                  items: [
+                    {
+                      text: "Internationalization Spike",
+                      link: "/technical-guides/sram-dev/velocio/velocio-localization-spike/",
+                    }
+                  ]
                 },
               ],
             },

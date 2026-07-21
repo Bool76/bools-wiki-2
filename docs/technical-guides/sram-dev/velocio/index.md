@@ -1,4 +1,4 @@
-# Velocio 
+# Velocio
 
 Summary - This is at first going to be a high level description of the arch of the site and how it works
 
@@ -6,19 +6,23 @@ Summary - This is at first going to be a high level description of the arch of t
 
 ## Technology
 
-Nuxt project - Used a starter template called Nitrogen that was inspired by Shopify  
+<br>
 
-Klaviyo - Tool marketing  and customer data platform. Site is integrated with it. Here are the ways Velocio is using it: 
-
-- Back in stock notifications - The back in stock manages itself, when the product comes back in a notification gets triggered
-- Custom email signup (in the footer) 
-- Promotional pop up for 15% off  
-
-Sanity - Site that's used to manage content. Site is integrated with it.   
-
-Tailwind v4 - CSS styling framework
+| Technology / Tool | Purpose                              | Notes                                                                                                                                                                                                        |
+| ----------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Klaviyo           | Marketing and customer data platform | Integrated with the site. Used for:<br>- Back-in-stock notifications (automatically sent when inventory is replenished)<br>- Custom email signup form in the footer<br>- Promotional pop-up offering 15% off |
+| Nitrogen          | Starter template                     | Provides the foundation for the Nuxt project and is inspired by Shopify's storefront architecture.                                                                                                           |
+| Nuxt              | Frontend framework                   | Uses the **Nitrogen** starter template, which was inspired by Shopify.                                                                                                                                       |
+| Sanity            | Content Management System (CMS)      | Integrated with the site and used to manage website content.                                                                                                                                                 |
+| Tailwind CSS v4   | CSS framework                        | Used for styling the site.                                                                                                                                                                                   |
+| Vercel            | Hosting platform                     | Hosts the storefront application.<br>https://vercel.com/sram-web/velocio-storefront                                                                                                                          |
 
 <br><br>
 
-## How to start Local Environment 
+## How to start Local Environment
 
+<br>
+
+## Pushing to Prod
+
+Summary - As of right now (2026-07-21) when code is merged via Github, then the changes will immediately be present on production
