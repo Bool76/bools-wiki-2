@@ -890,6 +890,7 @@ export default defineConfig({
                 {
                   text: "Chatbot",
                   link: "/technical-guides/sram-dev/chatbot/",
+                  collapsed: true,
                   items: [
                     {
                       text: "Submit Button Process",
@@ -1054,6 +1055,7 @@ export default defineConfig({
                 {
                   text: "Velocio",
                   link: "/technical-guides/sram-dev/velocio",
+                  collapsed: true,
                   items: [
                     {
                       text: "Internationalization Spike",
