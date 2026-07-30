@@ -904,6 +904,10 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     {
+                      text: "Delete Field",
+                      link: "/technical-guides/sram-dev/epi/epi-delete-field",
+                    },
+                    {
                       text: "Find object",
                       link: "/technical-guides/sram-dev/epi/epi-find-object/",
                     },
