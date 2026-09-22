@@ -20,6 +20,38 @@ Summary - This is at first going to be a high level description of the architect
 
 <br><br>
 
+## Sanity | Start Locally / Login Locally
+
+Summary - How to start / login to Sanity locally. Why? Cause getting into Sanity locally is different from just starting the Velocio project locally. 
+
+<br> 
+
+1. Open your code editor  
+
+
+1. In a terminal go to the following directory within the project: 
+```
+/velocio-storefront/sanity
+```  
+
+3. Run sanity locally:
+```
+npnm dev
+```
+
+4. Go to the site in your browser:  
+http://localhost:3333/
+
+
+5. Login with your email + password that you setup with Sanity  
+![Image from images folder](/sram-dev/velocio/velocio-sanity-login.png)
+<br>
+
+6. When you login there could be a variety of pages you land on. In general know that you want to be in the SRAM LLC and then find the Velocio project / space
+![Image from images folder](/sram-dev/velocio/velocio-sanity-sram-llc-velocio.png)
+
+<br><br>
+
 ## How to start Local Environment
 
 <br>
