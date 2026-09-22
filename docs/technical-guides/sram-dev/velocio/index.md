@@ -36,7 +36,7 @@ Summary - How to start / login to Sanity locally. Why? Cause getting into Sanity
 
 3. Run sanity locally:
 ```
-npnm dev
+pnpm dev
 ```
 
 4. Go to the site in your browser:  
